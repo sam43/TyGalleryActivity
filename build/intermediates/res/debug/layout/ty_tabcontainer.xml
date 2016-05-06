@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU: yuxin add for tygallery -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.android.gallery3d.app.TyTabFragmentIndicator
+		android:id="@+id/ty_tab_ind"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/ty_actionbar_height"
+		android:background="@color/ty_tab_bg_color">
+		<LinearLayout
+		    android:id="@+id/tab_content"
+			android:layout_width="@dimen/ty_tabcontainer_width"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_horizontal"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+			
+			<!--android:background="@drawable/ty_btn_fillet_background"-->
+			<Button
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"
+				android:background="@null"
+				android:gravity="center"
+				android:textAllCaps="false"
+				android:textColor="@color/ty_tab_def_text_color"
+				android:textSize="@dimen/ty_tab_def_text_size"/>
+				
+			<Button
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"
+				android:background="@null"
+				android:gravity="center"
+				android:textAllCaps="false"
+				android:textColor="@color/ty_tab_def_text_color"
+				android:textSize="@dimen/ty_tab_def_text_size"/>
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom">
+			<ImageView 
+				android:id="@+id/tabslider"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:scaleType="fitXY"
+				android:background="@drawable/ty_tab_indicator" />
+		</LinearLayout>
+	</com.android.gallery3d.app.TyTabFragmentIndicator>
+</merge>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_tabcontainer.xml -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<com.android.gallery3d.app.TyViewPager
+		android:id="@+id/pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+	<LinearLayout
+		android:id="@+id/ty_actionbar_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<View
+		    android:id="@+id/ty_statusbar_bg"
+			android:layout_width="match_parent"
+			android:layout_height="25dp"
+			android:background="@color/ty_tab_bg_color"/>
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		    	<include layout="@layout/ty_select_layout"/>
+				<include layout="@layout/ty_tabcontainer"/>
+		    	<include layout="@layout/ty_backtitle_layout"/>
+		    	<include layout="@layout/ty_transbacktitle_layout"/>
+		</FrameLayout>
+	</LinearLayout>
+</RelativeLayout>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_main.xml -->

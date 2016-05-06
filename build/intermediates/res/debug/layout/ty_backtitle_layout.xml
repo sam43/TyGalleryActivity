@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--taoxj modify begin
+             <com.android.gallery3d.app.TybackTitleIndicator
+		android:id="@+id/ty_back_ind"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/ty_actionbar_height"
+		android:gravity="center_vertical"
+		android:background="@color/ty_title_accent_color"
+		android:visibility="gone"> -->
+              <com.android.gallery3d.app.TybackTitleIndicator
+		android:id="@+id/ty_back_ind"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/ty_actionbar_height"
+		android:gravity="center_vertical"
+		android:visibility="gone"><!--taoxj modify end -->
+		<!--TIANYU hanpengzhe 20151204 modify for drawable from light to dark begin -->
+	    <!--<Button
+	        android:id="@+id/ty_action_title_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:ellipsize="end"
+	        android:textSize="@dimen/ty_title_font_size"
+	        android:textColor="@color/ty_title_font_color"
+	        android:drawableLeft="@drawable/ty_selection_close_light"
+	        android:background="@drawable/ty_back_title_background"/>
+	    <ImageView
+	        android:id="@+id/ty_action_camera"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="15dp"
+	        android:elevation="@dimen/ty_btn_circle_elevat"
+	        android:src="@drawable/ty_ic_camera_light"
+	        android:background="@drawable/ty_btn_circle_title_background"/>-->
+            <!--taoxj modify begin 
+	    <Button
+	        android:id="@+id/ty_action_title_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:ellipsize="end"
+	        android:textSize="@dimen/ty_title_font_size"
+	        android:textColor="@color/ty_title_font_color"
+	        android:drawableLeft="@drawable/ty_selection_close"
+	        android:background="@drawable/ty_back_title_background"/> -->
+              <Button
+                android:layout_marginLeft="20dp"
+	        android:id="@+id/ty_action_title_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:ellipsize="end"
+	        android:textSize="@dimen/ty_title_font_size"
+	        android:textColor="@color/ty_title_font_color"
+	        android:drawableLeft="@drawable/ty_selection_close"
+                android:background="@null"/>
+            <!--taoxj modify end -->
+	    <ImageView
+	        android:id="@+id/ty_action_camera"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="15dp"
+	        android:src="@drawable/ty_ic_camera_light"
+	        android:tint="#6b6b6b"
+	      />
+	    <!--TIANYU hanpengzhe 20151204 modify for drawable from light to dark end -->
+	</com.android.gallery3d.app.TybackTitleIndicator>
+</merge>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_backtitle_layout.xml -->

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TY wb034 20150119 add for tygallery -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="@dimen/tyalbumsetlist_item_height"
+	android:paddingLeft="@dimen/tyalbumsetlist_margin"
+	android:paddingRight="@dimen/tyalbumsetlist_margin">
+
+	<CheckBox
+		android:id="@+id/ty_select_box"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="@dimen/tyalbumsetlist_check_right_margin"
+		android:clickable="false"
+		android:focusable="false"
+		android:visibility="gone" />
+
+	<RelativeLayout 
+		android:id="@+id/ty_layout_info"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_toRightOf="@+id/ty_select_box"
+		android:layout_toLeftOf="@+id/drag_handle"
+		android:layout_marginRight="@dimen/tyalbumsetlist_margin">
+
+		<!--TY liuyuchuan  modify begin for PROD103692994-->
+		<FrameLayout
+			android:id="@+id/ty_layout_ports"
+			style="@style/TyAlbumpicBasicStyleFrameLayout"
+			android:layout_centerVertical="true">
+			
+			<ImageView android:id="@+id/ty_layout_port_one"
+				style="@style/TyAlbumpicBasicStyle"
+				android:layout_centerVertical="true"/>
+				
+			<View android:id="@+id/ty_layout_port_two"
+				  android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+				  android:background="@drawable/ty_ic_album_video_thumb_small"
+				  android:layout_centerVertical="true"
+				  android:visibility="gone" />
+			
+			<!-- TY zhencc 20150710 add for PROD103857879 begin -->
+			<View android:id="@+id/ty_layout_port_three"
+				  android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+				  android:background="@drawable/ty_ic_delay_video"
+				  android:layout_centerVertical="true"
+				  android:visibility="gone" />
+            <!-- TY zhencc 20150710 add for PROD103857879 end -->
+				  
+		</FrameLayout>
+		<!--TY liuyuchuan  modify end for PROD103692994-->
+
+		<LinearLayout 
+			android:id="@+id/ty_layout_info"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:orientation="vertical"
+			android:layout_marginLeft="@dimen/tyalbumsetlist_title_left_margin"
+			android:layout_toRightOf="@+id/ty_layout_ports">
+			<TextView
+				android:id="@+id/albumpath"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:textSize="@dimen/tyalbumsetlist_title_size"
+				android:textColor="@color/tyalbumsetlist_title"
+				android:ellipsize="end"
+				android:singleLine="true"/>
+
+            <!-- android:background="@drawable/ty_bg_gallrey_quantity"
+				 android:scaleType="centerCrop"-->
+			<TextView
+				android:id="@+id/count"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:textSize="@dimen/tyalbumsetlist_count_size" 
+				android:textColor="@color/tyalbumsetlist_count"
+				android:gravity="center"/>
+		</LinearLayout>
+	</RelativeLayout>
+
+	<ImageView
+	    android:id="@id/drag_handle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="16dp"
+		android:src="@drawable/ty_ic_list_move"
+		android:visibility="gone" />
+</RelativeLayout>

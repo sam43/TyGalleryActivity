@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TY zhencc add for New Design Gallery -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/ty_bottom_tran_bg_color"
+    android:visibility="gone">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/ty_page_bottom_bar_height"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="30dp"
+	    android:paddingRight="30dp">
+	    
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_weight="1" >
+	        <ImageButton
+	            android:id="@+id/ty_bottom_menu_delete"
+ 	            android:src="@drawable/ty_delete_image_selection"
+ 	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/delete_photo"/>
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_weight="1" >
+	        <ImageButton
+	            android:id="@+id/ty_bottom_menu_edit"
+ 	            android:src="@drawable/ty_edit_image_selection"
+ 	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/edit_photo"/>
+        </LinearLayout>
+	    
+	    
+        <!-- TY zhencc add for makeup begin -->
+        <LinearLayout
+            android:id="@+id/ty_bottom_menu_makeup_bg"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_weight="1" >
+	        <ImageButton
+	            android:id="@+id/ty_bottom_menu_makeup"
+	            android:src="@drawable/ty_makeup_image_selection"
+ 	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/makeup_photo"/>
+	     </LinearLayout>
+         <!-- TY zhencc add for makeup end -->
+
+         <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_weight="1" >
+	        <ImageButton
+	            android:id="@+id/ty_bottom_menu_share"
+	            android:src="@drawable/ty_share_image_selection"
+ 	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/share_photo"/>
+	     </LinearLayout>
+     
+         <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_weight="1" >
+	        <RelativeLayout 
+	            android:id="@+id/ty_bottom_menu_collect_bg"
+ 	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content">
+	            <ImageButton
+	                android:id="@+id/ty_bottom_menu_collect"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerInParent="true"
+	                android:src="@drawable/ty_collect_image_selection"
+ 	                android:contentDescription="@string/collect_photo"/>
+	        </RelativeLayout>
+        </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_photo_bottom_menu_layout.xml -->

@@ -1,0 +1,2264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/arrays.xml -->
+    <eat-comment/>
+    <array name="camera_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_off_holo_light</item>
+        <item>@drawable/ic_flash_auto_holo_light</item>
+        <item>@drawable/ic_flash_on_holo_light</item>
+    </array>
+    <array name="camera_flashmode_largeicons" translatable="false">
+        <item>@drawable/ic_flash_off_holo_light</item>
+        <item>@drawable/ic_flash_auto_holo_light</item>
+        <item>@drawable/ic_flash_on_holo_light</item>
+    </array>
+    <array name="camera_id_entries" translatable="false">
+        <item>@string/pref_camera_id_entry_back</item>
+        <item>@string/pref_camera_id_entry_front</item>
+    </array>
+    <array name="camera_id_icons" translatable="false">
+        <item>@drawable/ic_switch_back</item>
+        <item>@drawable/ic_switch_front</item>
+    </array>
+    <array name="camera_id_labels" translatable="false">
+        <item>@string/pref_camera_id_label_back</item>
+        <item>@string/pref_camera_id_label_front</item>
+    </array>
+    <array name="camera_id_largeicons" translatable="false">
+        <item>@drawable/ic_switch_back</item>
+        <item>@drawable/ic_switch_front</item>
+    </array>
+    <array name="camera_recordlocation_icons" translatable="false">
+        <item>@drawable/ic_location_off</item>
+        <item>@drawable/ic_location</item>
+    </array>
+    <array name="camera_recordlocation_largeicons" translatable="false">
+        <item>@drawable/ic_location_off</item>
+        <item>@drawable/ic_location</item>
+    </array>
+    <array name="camera_wb_indicators" translatable="false">
+        <item>@drawable/ic_indicator_wb_tungsten</item>
+        <item>@drawable/ic_indicator_wb_fluorescent</item>
+        <item>@drawable/ic_indicator_wb_off</item>
+        <item>@drawable/ic_indicator_wb_daylight</item>
+        <item>@drawable/ic_indicator_wb_cloudy</item>
+    </array>
+    <string-array name="pref_camera_countdown_labels">
+        <item>@string/pref_camera_countdown_label_off</item>
+        <item>@string/pref_camera_countdown_label_one</item>
+        <item>@string/pref_camera_countdown_label_three</item>
+        <item>@string/pref_camera_countdown_label_ten</item>
+        <item>@string/pref_camera_countdown_label_fifteen</item>
+    </string-array>
+    <array name="pref_camera_exposure_icons" translatable="false">
+        <item>@drawable/ic_exposure_n3</item>
+        <item>@drawable/ic_exposure_n2</item>
+        <item>@drawable/ic_exposure_n1</item>
+        <item>@drawable/ic_exposure_0</item>
+        <item>@drawable/ic_exposure_p1</item>
+        <item>@drawable/ic_exposure_p2</item>
+        <item>@drawable/ic_exposure_p3</item>
+    </array>
+    <string-array name="pref_camera_flashmode_entries" translatable="false">
+        <item>@string/pref_camera_flashmode_entry_off</item>
+        <item>@string/pref_camera_flashmode_entry_auto</item>
+        <item>@string/pref_camera_flashmode_entry_on</item>
+    </string-array>
+    <string-array name="pref_camera_flashmode_entryvalues" translatable="false">
+        <item>off</item>
+        <item>auto</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="pref_camera_flashmode_labels" translatable="false">
+        <item>@string/pref_camera_flashmode_label_off</item>
+        <item>@string/pref_camera_flashmode_label_auto</item>
+        <item>@string/pref_camera_flashmode_label_on</item>
+    </string-array>
+    <string-array name="pref_camera_focusmode_default_array" translatable="false">
+        <item>continuous-picture</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="pref_camera_focusmode_entries" translatable="false">
+        <item>@string/pref_camera_focusmode_entry_auto</item>
+        <item>@string/pref_camera_focusmode_entry_infinity</item>
+        <item>@string/pref_camera_focusmode_entry_macro</item>
+    </string-array>
+    <string-array name="pref_camera_focusmode_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>infinity</item>
+        <item>macro</item>
+    </string-array>
+    <string-array name="pref_camera_focusmode_labels" translatable="false">
+        <item>@string/pref_camera_focusmode_label_auto</item>
+        <item>@string/pref_camera_focusmode_label_infinity</item>
+        <item>@string/pref_camera_focusmode_label_macro</item>
+    </string-array>
+    <string-array name="pref_camera_hdr_entries" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </string-array>
+    <string-array name="pref_camera_hdr_entryvalues" translatable="false">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </string-array>
+    <string-array name="pref_camera_hdr_icons" translatable="false">
+        <item>@drawable/ic_hdr_off</item>
+        <item>@drawable/ic_hdr</item>
+    </string-array>
+    <string-array name="pref_camera_hdr_labels" translatable="false">
+        <item>@string/pref_camera_hdr_label</item>
+        <item>@string/pref_camera_hdr_label</item>
+    </string-array>
+    <string-array name="pref_camera_picturesize_entries" translatable="false">
+        <item>@string/pref_camera_picturesize_entry_13mp</item>
+        <item>@string/pref_camera_picturesize_entry_8mp</item>
+        <item>@string/pref_camera_picturesize_entry_5mp</item>
+        <item>@string/pref_camera_picturesize_entry_5mp</item>
+        <item>@string/pref_camera_picturesize_entry_5mp</item>
+        <item>@string/pref_camera_picturesize_entry_4mp</item>
+        <item>@string/pref_camera_picturesize_entry_3mp</item>
+        <item>@string/pref_camera_picturesize_entry_2mp</item>
+        <item>@string/pref_camera_picturesize_entry_2mp_wide</item>
+        <item>@string/pref_camera_picturesize_entry_1_3mp</item>
+        <item>@string/pref_camera_picturesize_entry_1mp</item>
+        <item>@string/pref_camera_picturesize_entry_vga</item>
+        <item>@string/pref_camera_picturesize_entry_qvga</item>
+    </string-array>
+    <string-array name="pref_camera_picturesize_entryvalues" translatable="false">
+        <item>4128x3096</item>
+        <item>3264x2448</item>
+        <item>2592x1944</item>
+        <item>2592x1936</item>
+        <item>2560x1920</item>
+        <item>2688x1520</item>
+        <item>2048x1536</item>
+        <item>1600x1200</item>
+        <item>1920x1088</item>
+        <item>1280x960</item>
+        <item>1024x768</item>
+        <item>640x480</item>
+        <item>320x240</item>
+    </string-array>
+    <array name="pref_camera_recordlocation_entries" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </array>
+    <string-array name="pref_camera_recordlocation_entryvalues" translatable="false">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <array name="pref_camera_recordlocation_labels" translatable="false">
+        <item>@string/pref_camera_location_label</item>
+        <item>@string/pref_camera_location_label</item>
+    </array>
+    <string-array name="pref_camera_scenemode_entries" translatable="false">
+        <item>@string/pref_camera_scenemode_entry_action</item>
+        <item>@string/pref_camera_scenemode_entry_night</item>
+        <item>@string/pref_camera_scenemode_entry_auto</item>
+        <item>@string/pref_camera_scenemode_entry_sunset</item>
+        <item>@string/pref_camera_scenemode_entry_party</item>
+    </string-array>
+    <string-array name="pref_camera_scenemode_entryvalues" translatable="false">
+        <item>action</item>
+        <item>night</item>
+        <item>auto</item>
+        <item>sunset</item>
+        <item>party</item>
+    </string-array>
+    <array name="pref_camera_scenemode_icons">
+        <item>@drawable/ic_sce_action</item>
+        <item>@drawable/ic_sce_night</item>
+        <item>@drawable/ic_sce_off</item>
+        <item>@drawable/ic_sce_sunset</item>
+        <item>@drawable/ic_sce_party</item>
+    </array>
+    <string-array name="pref_camera_scenemode_labels">
+        <item>@string/pref_camera_scenemode_label_action</item>
+        <item>@string/pref_camera_scenemode_label_night</item>
+        <item>@string/pref_camera_scenemode_label_auto</item>
+        <item>@string/pref_camera_scenemode_label_sunset</item>
+        <item>@string/pref_camera_scenemode_label_party</item>
+    </string-array>
+    <string-array name="pref_camera_timer_sound_entries" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </string-array>
+    <string-array name="pref_camera_timer_sound_entryvalues" translatable="false">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </string-array>
+    <string-array name="pref_camera_video_flashmode_entries" translatable="false">
+        <item>@string/pref_camera_flashmode_entry_on</item>
+        <item>@string/pref_camera_flashmode_entry_off</item>
+    </string-array>
+    <string-array name="pref_camera_video_flashmode_entryvalues" translatable="false">
+        <item>torch</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="pref_camera_video_flashmode_labels" translatable="false">
+        <item>@string/pref_camera_flashmode_label_on</item>
+        <item>@string/pref_camera_flashmode_label_off</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_entries" translatable="false">
+        <item>@string/pref_camera_whitebalance_entry_incandescent</item>
+        <item>@string/pref_camera_whitebalance_entry_fluorescent</item>
+        <item>@string/pref_camera_whitebalance_entry_auto</item>
+        <item>@string/pref_camera_whitebalance_entry_daylight</item>
+        <item>@string/pref_camera_whitebalance_entry_cloudy</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_entryvalues" translatable="false">
+        <item>incandescent</item>
+        <item>fluorescent</item>
+        <item>auto</item>
+        <item>daylight</item>
+        <item>cloudy-daylight</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_labels" translatable="false">
+        <item>@string/pref_camera_whitebalance_label_incandescent</item>
+        <item>@string/pref_camera_whitebalance_label_fluorescent</item>
+        <item>@string/pref_camera_whitebalance_label_auto</item>
+        <item>@string/pref_camera_whitebalance_label_daylight</item>
+        <item>@string/pref_camera_whitebalance_label_cloudy</item>
+    </string-array>
+    <string-array name="pref_video_effect_entries" translatable="false">
+        <item>@string/effect_none</item>
+        <item>@string/effect_goofy_face_squeeze</item>
+        <item>@string/effect_goofy_face_big_eyes</item>
+        <item>@string/effect_goofy_face_big_mouth</item>
+        <item>@string/effect_goofy_face_small_mouth</item>
+        <item>@string/effect_goofy_face_big_nose</item>
+        <item>@string/effect_goofy_face_small_eyes</item>
+        <item>@string/effect_backdropper_space</item>
+        <item>@string/effect_backdropper_sunset</item>
+        <item>@string/effect_backdropper_gallery</item>
+    </string-array>
+    <string-array name="pref_video_effect_entryvalues" translatable="false">
+        <item>@string/pref_video_effect_default</item>
+        <item>goofy_face/squeeze</item>
+        <item>goofy_face/big_eyes</item>
+        <item>goofy_face/big_mouth</item>
+        <item>goofy_face/small_mouth</item>
+        <item>goofy_face/big_nose</item>
+        <item>goofy_face/small_eyes</item>
+        <item>backdropper/file:///system/media/video/AndroidInSpace.480p.mp4</item>
+        <item>backdropper/file:///system/media/video/Sunset.480p.mp4</item>
+        <item>backdropper/gallery</item>
+    </string-array>
+    <string-array name="pref_video_quality_entries" translatable="false">
+        <item>@string/pref_video_quality_entry_1080p</item>
+        <item>@string/pref_video_quality_entry_720p</item>
+        <item>@string/pref_video_quality_entry_480p</item>
+        <item>@string/pref_video_quality_entry_high</item>
+        <item>@string/pref_video_quality_entry_low</item>
+   </string-array>
+    <string-array name="pref_video_quality_entryvalues" translatable="false">
+        <!-- The integer value of CamcorderProfile.QUALITY_1080P -->
+        <item>6</item>
+        <!-- The integer value of CamcorderProfile.QUALITY_720P -->
+        <item>@string/pref_video_quality_default</item>
+        <!-- The integer value of CamcorderProfile.QUALITY_480P -->
+        <item>4</item>
+        <!-- The integer value of CamcorderProfile.QUALITY_HIGH -->
+        <item>1</item>
+         <!-- The integer value of CamcorderProfile.QUALITY_LOW -->
+        <item>0</item>
+    </string-array>
+    <string-array name="pref_video_time_lapse_frame_interval_duration_values" translatable="false">
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="pref_video_time_lapse_frame_interval_entries">
+        <item>@string/pref_video_time_lapse_frame_interval_off</item>
+        <item>@string/pref_video_time_lapse_frame_interval_500</item>
+        <item>@string/pref_video_time_lapse_frame_interval_1000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_1500</item>
+        <item>@string/pref_video_time_lapse_frame_interval_2000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_2500</item>
+        <item>@string/pref_video_time_lapse_frame_interval_3000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_4000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_5000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_6000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_10000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_12000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_15000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_24000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_30000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_60000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_90000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_120000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_150000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_180000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_240000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_300000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_360000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_600000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_720000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_900000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_1440000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_1800000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_3600000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_5400000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_7200000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_9000000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_10800000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_14400000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_18000000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_21600000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_36000000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_43200000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_54000000</item>
+        <item>@string/pref_video_time_lapse_frame_interval_86400000</item>
+    </string-array>
+    <string-array name="pref_video_time_lapse_frame_interval_entryvalues" translatable="false">
+        <item>0</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>10000</item>
+        <item>12000</item>
+        <item>15000</item>
+        <item>24000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>90000</item>
+        <item>120000</item>
+        <item>150000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>600000</item>
+        <item>720000</item>
+        <item>900000</item>
+        <item>1440000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>5400000</item>
+        <item>7200000</item>
+        <item>9000000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+        <item>21600000</item>
+        <item>36000000</item>
+        <item>43200000</item>
+        <item>54000000</item>
+        <item>86400000</item>
+    </string-array>
+    <string-array name="pref_video_time_lapse_frame_interval_units">
+        <item>@string/time_lapse_seconds</item>
+        <item>@string/time_lapse_minutes</item>
+        <item>@string/time_lapse_hours</item>
+    </string-array>
+    <array name="video_effect_icons" translatable="false">
+        <item>@drawable/ic_effects_holo_light</item>
+        <item>@drawable/ic_video_effects_faces_squeeze_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_big_eyes_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_big_mouth_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_small_mouth_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_big_nose_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_small_eyes_holo_dark</item>
+        <item>@drawable/ic_video_effects_background_intergalactic_holo</item>
+        <item>@drawable/ic_video_effects_background_fields_of_wheat_holo</item>
+        <item>@drawable/ic_video_effects_background_normal_holo_dark</item>
+    </array>
+    <array name="video_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_on_holo_light</item>
+        <item>@drawable/ic_flash_off_holo_light</item>
+    </array>
+    <array name="video_flashmode_largeicons" translatable="false">
+        <item>@drawable/ic_flash_on_holo_light</item>
+        <item>@drawable/ic_flash_off_holo_light</item>
+    </array>
+    <array name="whitebalance_icons" translatable="false">
+        <item>@drawable/ic_wb_incandescent</item>
+        <item>@drawable/ic_wb_fluorescent</item>
+        <item>@drawable/ic_wb_auto</item>
+        <item>@drawable/ic_wb_sunlight</item>
+        <item>@drawable/ic_wb_cloudy</item>
+    </array>
+    <array name="whitebalance_largeicons" translatable="false">
+        <item>@drawable/ic_wb_incandescent</item>
+        <item>@drawable/ic_wb_fluorescent</item>
+        <item>@drawable/ic_wb_auto</item>
+        <item>@drawable/ic_wb_sunlight</item>
+        <item>@drawable/ic_wb_cloudy</item>
+    </array>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/bool.xml -->
+    <eat-comment/>
+    <bool name="loop">false</bool>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_values.xml -->
+    <eat-comment/>
+    <bool name="only_use_portrait">true</bool>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/styles.xml -->
+    <eat-comment/>
+    <bool name="picker_is_dialog">false</bool>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/bool.xml -->
+    <eat-comment/>
+    <bool name="playlist">false</bool>
+    <bool name="show_action_bar_title">false</bool>
+    <bool name="speaker">false</bool>
+    <bool name="stereo">false</bool>
+    <bool name="streaming">false</bool>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="actionbar_textview_color">#ffffff</color>
+    <color name="actionbar_textview_disable_color">#5a5a5a</color>
+    <color name="album_background">#ffffff</color>
+    <color name="album_placeholder">#eeeeee</color>
+    <color name="album_title_background">#ffffff</color>
+    <color name="album_title_count">#767679</color>
+    <color name="album_title_placeholder">#ffffff</color>
+    <color name="album_title_title">#000000</color>
+    <color name="albumset_background">#ffffff</color>
+    <color name="albumset_label_background">#EE414143</color>
+    <color name="albumset_label_count">#A9ABAD</color>
+    <color name="albumset_label_title">#FBFBFB</color>
+    <color name="albumset_placeholder">#eeeeee</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="background_main_toolbar">#232323</color>
+    <color name="background_screen">#101010</color>
+    <color name="background_toolbar">#363949</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bitmap_screennail_placeholder">#444444</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="blue">#0000FF</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="button_dark_transparent_background">#1A1A1A</color>
+    <color name="cache_background">#ffffff</color>
+    <color name="cache_placeholder">#eeeeee</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="color_chooser_slected_border">#a7a7a7</color>
+    <color name="color_chooser_unslected_border">#00000000</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/crop_colors.xml -->
+    <eat-comment/>
+    <color name="crop_shadow_color">#CF000000</color>
+    <color name="crop_shadow_wp_color">#4F000000</color>
+    <color name="crop_wp_markers">#7FFFFFFF</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="darker_transparent">#C1000000</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="default_background">#ffffff</color>
+    <color name="disabled">#505050</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="draw_rect_border">#888888</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="face_detect_fail">#80d05060</color>
+    <color name="face_detect_start">#80ffffff</color>
+    <color name="face_detect_success">#8050d060</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="filtershow_background">#333333</color>
+    <color name="filtershow_category_selection">#ffffffff</color>
+    <color name="filtershow_categoryview_background">#1a1a1a</color>
+    <color name="filtershow_categoryview_text">#a7a7a7</color>
+    <color name="filtershow_graphic">#717171</color>
+    <color name="filtershow_stateview_background">#464646</color>
+    <color name="filtershow_stateview_end_background">#232323</color>
+    <color name="filtershow_stateview_end_text">#a7a7a7</color>
+    <color name="filtershow_stateview_selected_background">#c8c8c8</color>
+    <color name="filtershow_stateview_selected_text">#000000</color>
+    <color name="filtershow_stateview_text">#FFFFFF</color>
+    <color name="gradcontrol_graypoint_center">#888888</color>
+    <color name="gradcontrol_graypoint_edge">#BBBBBB</color>
+    <color name="gradcontrol_line_color">#FFFFFF</color>
+    <color name="gradcontrol_line_shadow">#000000</color>
+    <color name="gradcontrol_point_center">#ffffffff</color>
+    <color name="gradcontrol_point_edge">#ffffffff</color>
+    <color name="gradcontrol_point_shadow_end">#00000000</color>
+    <color name="gradcontrol_point_shadow_start">#66000000</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="gray">#FFAAAAAA</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="green">#00FF00</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="grey">#999999</color>
+    <color name="highlight">#00a8ff</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="icon_disabled_color">#DD777777</color>
+    <color name="indicator_background">#40000000</color>
+    <color name="ingest_date_tile_text">#33b5e5</color>
+    <color name="ingest_highlight_semitransparent">#8833b5e5</color>
+    <color name="lowlight">#00527c</color>
+    <color name="mode_selection_border">#33B5E5</color>
+    <color name="on_viewfinder_label_background_color">#77333333</color>
+    <color name="pano_progress_done">#FF33525E</color>
+    <color name="pano_progress_empty">#FF2E2E2E</color>
+    <color name="pano_progress_indication">#FF0099CC</color>
+    <color name="pano_progress_indication_fast">#FFFF2222</color>
+    <color name="photo_background">#ededf0</color>
+    <color name="photo_background_dark">#000000</color>
+    <color name="photo_placeholder">#eeeeee</color>
+    <color name="popup_background">#ff282828</color>
+    <color name="popup_title_color">#ff33b5e5</color>
+    <color name="recording_time_elapsed_text">#FFFFFFFF</color>
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="red">#FF0000</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="review_background">#FF000000</color>
+    <color name="review_control_pressed_color">#FF33B5E5</color>
+    <color name="review_control_pressed_fan_color">#3F33B5E5</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="slider_dot_color">#646464</color>
+    <color name="slider_line_color">#888888</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="slideshow_background">#ffffff</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="state_panel_separation_line">#232323</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="swapbutton_text_color">#ffffff</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="text_toolbar">#FFFFFF</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="time_lapse_arc">#FFC5C5C5</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="toolbar_separation_line">#333333</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="trim_video_actionbar_color">#7f000000</color>
+    <color name="ty_accent_color">#ededf0</color>
+    <color name="ty_bottom_bg_color">#ededf0</color>
+    <color name="ty_bottom_tran_bg_color">#32000000</color>
+    <color name="ty_delete_color">#ffff3a31</color>
+    <color name="ty_delete_color_disable">#7fff3a31</color>
+    <color name="ty_shadow_color">#40000000</color>
+    <color name="ty_tab_bg_color">#ededf0</color>
+    <color name="ty_tab_def_text_color">#000000</color>
+    <color name="ty_title_accent_color">#ededf0</color>
+    <color name="ty_title_font_color">#000000</color>
+    <color name="ty_title_shadow_color">#40000000</color>
+    <color name="ty_title_tran_accent_color">#ededf0</color>
+    <color name="ty_title_tran_bg_color">#32000000</color>
+    <color name="ty_title_tran_shadow_color">#40000000</color>
+    <color name="ty_transparent">#00000000</color>
+    <color name="ty_trns_accent_color">#ededf0</color>
+    <color name="ty_trns_shadow_color">#40000000</color>
+    <color name="tyalbumsetlist_count">#787878</color>
+    <color name="tyalbumsetlist_title">#000000</color>
+    <color name="ui_cyan">#44766F</color>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_color.xml -->
+    <eat-comment/>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="CameraPreference"><attr format="string" name="title"/></declare-styleable>
+    <declare-styleable name="CategoryTrack"><attr format="dimension" name="iconSize"/></declare-styleable>
+    <declare-styleable name="CenteredLinearLayout"><attr format="dimension" name="max_width"/></declare-styleable>
+    <declare-styleable name="IconIndicator"><attr format="reference" name="icons"/><attr format="reference" name="modes"/></declare-styleable>
+    <declare-styleable name="IconListPreference"><attr format="reference" name="singleIcon"/><attr name="icons"/><attr format="reference" name="largeIcons"/><attr format="reference" name="images"/></declare-styleable>
+    <declare-styleable name="ImageButtonTitle"><attr name="android:text"/><attr name="android:textColor"/></declare-styleable>
+    <declare-styleable name="Knob"><attr format="string" name="label"/><attr format="integer" name="background"/><attr format="integer" name="foreground"/></declare-styleable>
+    <declare-styleable name="ListPreference"><attr format="string" name="key"/><attr format="string|reference" name="defaultValue"/><attr format="reference" name="entryValues"/><attr format="reference" name="entries"/><attr format="reference" name="labelList"/></declare-styleable>
+    <declare-styleable name="StatePanelTrack"><attr format="dimension" name="elemSize"/><attr format="dimension" name="elemEndSize"/></declare-styleable>
+    <declare-styleable name="Theme.GalleryBase"><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="reference" name="switchStyle"/></declare-styleable>
+    <declare-styleable name="TyDragSortListView"><attr format="dimension" name="collapsed_height"/><attr format="float" name="drag_scroll_start"/><attr format="float" name="max_drag_scroll_speed"/><attr format="color" name="float_background_color"/><attr name="remove_mode"><enum name="clickRemove" value="0"/><enum name="flingRemove" value="1"/></attr><attr format="boolean" name="track_drag_sort"/><attr format="float" name="float_alpha"/><attr format="float" name="slide_shuffle_speed"/><attr format="integer" name="remove_animation_duration"/><attr format="integer" name="drop_animation_duration"/><attr format="boolean" name="drag_enabled"/><attr format="boolean" name="sort_enabled"/><attr format="boolean" name="remove_enabled"/><attr name="drag_start_mode"><enum name="onDown" value="0"/><enum name="onMove" value="1"/><enum name="onLongPress" value="2"/></attr><attr format="integer" name="drag_handle_id"/><attr format="integer" name="fling_handle_id"/><attr format="integer" name="click_remove_id"/><attr format="boolean" name="use_default_controller"/></declare-styleable>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="action_item_height">175dip</dimen>
+    <dimen name="album_count_font_size">14sp</dimen>
+    <dimen name="album_set_item_image_height">120dp</dimen>
+    <dimen name="album_set_item_width">140dp</dimen>
+    <dimen name="album_slot_gap">5dp</dimen>
+    <dimen name="album_title_background_height">50dp</dimen>
+    <dimen name="album_title_count_bottom_margin">8dp</dimen>
+    <dimen name="album_title_font_bottom_margin">17dp</dimen>
+    <dimen name="album_title_font_size">16sp</dimen>
+    <dimen name="album_title_font_top_margin">12dp</dimen>
+    <dimen name="album_title_left_margin">0dp</dimen>
+    <dimen name="album_title_right_margin">11dp</dimen>
+    <dimen name="albumset_count_font_size">9sp</dimen>
+    <dimen name="albumset_count_offset">10dp</dimen>
+    <dimen name="albumset_icon_size">25dp</dimen>
+    <dimen name="albumset_label_background_height">30dp</dimen>
+    <dimen name="albumset_left_margin">2dp</dimen>
+    <dimen name="albumset_padding_bottom">7dp</dimen>
+    <dimen name="albumset_padding_top">7dp</dimen>
+    <dimen name="albumset_slot_gap">7dp</dimen>
+    <dimen name="albumset_title_font_size">12sp</dimen>
+    <dimen name="albumset_title_offset">10dp</dimen>
+    <dimen name="albumset_title_right_margin">20dp</dimen>
+    <dimen name="appwidget_height">180dp</dimen>
+    <dimen name="appwidget_width">180dp</dimen>
+    <dimen name="big_setting_popup_window_width">320dp</dimen>
+    <dimen name="big_setting_popup_window_width_xlarge">590dp</dimen>
+    <dimen name="cache_pin_margin">8dp</dimen>
+    <dimen name="cache_pin_size">24dp</dimen>
+    <dimen name="camera_controls_size">0dip</dimen>
+    <dimen name="camera_film_strip_gap">32dip</dimen>
+    <dimen name="capture_border">8dip</dimen>
+    <dimen name="capture_margin_right">16dip</dimen>
+    <dimen name="capture_margin_top">16dip</dimen>
+    <dimen name="capture_size">48dip</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_values.xml -->
+    <eat-comment/>
+    <dimen name="category_panel_height">86dip</dimen>
+    <dimen name="category_panel_icon_size">64dip</dimen>
+    <dimen name="category_panel_margin">4dip</dimen>
+    <dimen name="category_panel_text_size">11dip</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/crop_dimens.xml -->
+    <eat-comment/>
+    <dimen name="crop_min_side">45dp</dimen>
+    <dimen name="crop_touch_tolerance">20dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_values.xml -->
+    <eat-comment/>
+    <dimen name="draw_color_check_dim">5dip</dimen>
+    <dimen name="draw_color_icon_dim">42dip</dimen>
+    <dimen name="draw_rect_border">20dip</dimen>
+    <dimen name="draw_rect_border_edge">2dip</dimen>
+    <dimen name="draw_rect_round">10dip</dimen>
+    <dimen name="draw_rect_shadow">8dip</dimen>
+    <dimen name="draw_style_icon_dim">42dip</dimen>
+    <dimen name="draw_ui_width">192dip</dimen>
+    <dimen name="edge_glow_size">50dip</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="effect_setting_clear_text_min_height">45dp</dimen>
+    <dimen name="effect_setting_clear_text_min_height_xlarge">44dp</dimen>
+    <dimen name="effect_setting_clear_text_size">20dp</dimen>
+    <dimen name="effect_setting_clear_text_size_xlarge">23dp</dimen>
+    <dimen name="effect_setting_item_icon_width">40dp</dimen>
+    <dimen name="effect_setting_item_icon_width_xlarge">54dp</dimen>
+    <dimen name="effect_setting_item_text_size">12sp</dimen>
+    <dimen name="effect_setting_item_text_size_xlarge">21dp</dimen>
+    <dimen name="effect_setting_type_text_left_padding">16dp</dimen>
+    <dimen name="effect_setting_type_text_left_padding_xlarge">26dp</dimen>
+    <dimen name="effect_setting_type_text_min_height">36dp</dimen>
+    <dimen name="effect_setting_type_text_min_height_xlarge">34dp</dimen>
+    <dimen name="effect_setting_type_text_size">12sp</dimen>
+    <dimen name="effect_setting_type_text_size_xlarge">21dp</dimen>
+    <dimen name="face_circle_stroke">2dip</dimen>
+    <dimen name="focus_inner_offset">24dp</dimen>
+    <dimen name="focus_inner_stroke">2dp</dimen>
+    <dimen name="focus_outer_stroke">3dp</dimen>
+    <dimen name="focus_radius_offset">8dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_values.xml -->
+    <eat-comment/>
+    <dimen name="gradcontrol_dot_size">20dip</dimen>
+    <dimen name="gradcontrol_min_touch_dist">80dip</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="hint_y_offset">64dp</dimen>
+    <dimen name="indicator_bar_width">48dp</dimen>
+    <dimen name="indicator_bar_width_large">72dp</dimen>
+    <dimen name="indicator_bar_width_xlarge">13dp</dimen>
+    <dimen name="manage_cache_bottom_height">48dp</dimen>
+    <dimen name="navigation_bar_height">48dip</dimen>
+    <dimen name="navigation_bar_width">42dip</dimen>
+    <dimen name="onscreen_exposure_indicator_text_size">15dp</dimen>
+    <dimen name="onscreen_exposure_indicator_text_size_xlarge">18dp</dimen>
+    <dimen name="onscreen_indicators_height">28dp</dimen>
+    <dimen name="onscreen_indicators_height_large">36dp</dimen>
+    <dimen name="onscreen_indicators_height_xlarge">36dp</dimen>
+    <dimen name="pano_mosaic_surface_height">240dp</dimen>
+    <dimen name="pano_mosaic_surface_height_xlarge">480dp</dimen>
+    <dimen name="pano_review_button_height">45dp</dimen>
+    <dimen name="pano_review_button_height_xlarge">115dp</dimen>
+    <dimen name="pano_review_button_width">70dp</dimen>
+    <dimen name="pano_review_button_width_xlarge">180dp</dimen>
+    <dimen name="photoeditor_original_text_margin">4dp</dimen>
+    <dimen name="photoeditor_original_text_size">18dp</dimen>
+    <dimen name="photoeditor_text_padding">10dp</dimen>
+    <dimen name="photoeditor_text_size">12dp</dimen>
+    <dimen name="pie_anglezone_width">92dp</dimen>
+    <dimen name="pie_arc_offset">48dp</dimen>
+    <dimen name="pie_arc_radius">214dp</dimen>
+    <dimen name="pie_deadzone_width">36dp</dimen>
+    <dimen name="pie_item_radius">370dp</dimen>
+    <dimen name="pie_radius_increment">48dp</dimen>
+    <dimen name="pie_radius_start">80dp</dimen>
+    <dimen name="pie_touch_offset">32dp</dimen>
+    <dimen name="pie_touch_slop">12dp</dimen>
+    <dimen name="pie_view_size">48dp</dimen>
+    <dimen name="popup_title_frame_min_height">49dp</dimen>
+    <dimen name="popup_title_frame_min_height_xlarge">60dp</dimen>
+    <dimen name="popup_title_text_size">22dp</dimen>
+    <dimen name="popup_title_text_size_xlarge">22dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/crop_dimens.xml -->
+    <eat-comment/>
+    <dimen name="preview_margin">2dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="setting_item_icon_width">28dp</dimen>
+    <dimen name="setting_item_icon_width_large">48dp</dimen>
+    <dimen name="setting_item_icon_width_xlarge">35dp</dimen>
+    <dimen name="setting_item_list_margin">14dp</dimen>
+    <dimen name="setting_item_list_margin_xlarge">24dp</dimen>
+    <dimen name="setting_item_text_size">18sp</dimen>
+    <dimen name="setting_item_text_size_xlarge">21dp</dimen>
+    <dimen name="setting_item_text_width">95dp</dimen>
+    <dimen name="setting_item_text_width_xlarge">130dp</dimen>
+    <dimen name="setting_knob_text_size">20dp</dimen>
+    <dimen name="setting_knob_width">20dp</dimen>
+    <dimen name="setting_knob_width_xlarge">50dp</dimen>
+    <dimen name="setting_popup_right_margin">5dp</dimen>
+    <dimen name="setting_popup_right_margin_large">8dp</dimen>
+    <dimen name="setting_popup_window_width">240dp</dimen>
+    <dimen name="setting_popup_window_width_large">260dp</dimen>
+    <dimen name="setting_popup_window_width_xlarge">410dp</dimen>
+    <dimen name="setting_row_height">50dp</dimen>
+    <dimen name="setting_row_height_large">54dp</dimen>
+    <dimen name="setting_row_height_xlarge">50dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/crop_dimens.xml -->
+    <eat-comment/>
+    <dimen name="shadow_margin">5dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="shutter_offset">-22dp</dimen>
+    <dimen name="size_preview">400dip</dimen>
+    <dimen name="size_thumbnail">200dip</dimen>
+    <dimen name="stack_photo_height">120dp</dimen>
+    <dimen name="stack_photo_width">160dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_values.xml -->
+    <eat-comment/>
+    <dimen name="state_panel_text_size">16dip</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="switch_min_width">96dp</dimen>
+    <dimen name="switch_padding">16dp</dimen>
+    <dimen name="switch_text_max_width">44dp</dimen>
+    <dimen name="switcher_size">72dp</dimen>
+    <dimen name="thumb_text_padding">12dp</dimen>
+    <dimen name="thumb_text_size">14sp</dimen>
+    <dimen name="thumbnail_margin">2dip</dimen>
+    <dimen name="thumbnail_size">96dip</dimen>
+    <dimen name="touch_circle_size">8dp</dimen>
+    <dimen name="ty_actionbar_height">40dp</dimen>
+    <dimen name="ty_album_page_gap">6dp</dimen>
+    <dimen name="ty_album_slot_gap">4dp</dimen>
+    <dimen name="ty_album_slot_gap_edge">30dp</dimen>
+    <dimen name="ty_album_timegroup_separatorline_height">1dp</dimen>
+    <dimen name="ty_album_timegroup_slot_height">135dp</dimen>
+    <dimen name="ty_album_timegroup_slot_margin">60dp</dimen>
+    <dimen name="ty_album_timegroup_slot_width">135dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/ty_dimens.xml -->
+    <eat-comment/>
+    <dimen name="ty_appwidget_height">220dp</dimen>
+    <dimen name="ty_appwidget_width">294dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="ty_bottom_float">80dp</dimen>
+    <dimen name="ty_bottom_font_size">15sp</dimen>
+    <dimen name="ty_bottom_height">80dp</dimen>
+    <dimen name="ty_bottom_select">60dp</dimen>
+    <dimen name="ty_btn_circle_elevat">0dp</dimen>
+    <dimen name="ty_btn_corner">0dp</dimen>
+    <dimen name="ty_btn_inset_hor">0dp</dimen>
+    <dimen name="ty_btn_inset_ver">0dp</dimen>
+    <dimen name="ty_btn_padding_hor">0dp</dimen>
+    <dimen name="ty_btn_padding_ver">0dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/ty_dimens.xml -->
+    <eat-comment/>
+    <dimen name="ty_drag_height">100dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="ty_exifData_size">28px</dimen>
+    <dimen name="ty_exifLabel_size">34px</dimen>
+    <dimen name="ty_page_bottom_bar_height">63dp</dimen>
+    <dimen name="ty_page_top_bar_height">50dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/ty_dimens.xml -->
+    <eat-comment/>
+    <dimen name="ty_stack_photo_height">210dp</dimen>
+    <dimen name="ty_stack_photo_width">280dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="ty_tab_def_text_size">16sp</dimen>
+    <dimen name="ty_tab_foc_text_size">16sp</dimen>
+    <dimen name="ty_tabcontainer_width">150dp</dimen>
+    <dimen name="ty_title_font_size">17sp</dimen>
+    <dimen name="tyalbumsetlist_check_right_margin">12dp</dimen>
+    <dimen name="tyalbumsetlist_count_size">14sp</dimen>
+    <dimen name="tyalbumsetlist_item_height">90dp</dimen>
+    <dimen name="tyalbumsetlist_margin">21dp</dimen>
+    <dimen name="tyalbumsetlist_title_left_margin">14dp</dimen>
+    <dimen name="tyalbumsetlist_title_size">17sp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/crop_dimens.xml -->
+    <eat-comment/>
+    <dimen name="wp_selector_dash_length">4dp</dimen>
+    <dimen name="wp_selector_off_length">4dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="zoom_font_size">14pt</dimen>
+    <dimen name="zoom_ring_min">48dp</dimen>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="action_select_all" type="id"/>
+    <item name="action_toggle_full_caching" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_ids.xml -->
+    <eat-comment/>
+    <item name="bwfilterButton" type="id"/>
+    <item name="contrastButton" type="id"/>
+    <item name="curvesButtonRGB" type="id"/>
+    <item name="downsampleButton" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/ty_ids.xml -->
+    <eat-comment/>
+    <item name="drag_handle" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_ids.xml -->
+    <eat-comment/>
+    <item name="drawOnImageButton" type="id"/>
+    <item name="edgeButton" type="id"/>
+    <item name="editorChanSat" type="id"/>
+    <item name="editorColorBorder" type="id"/>
+    <item name="editorCrop" type="id"/>
+    <item name="editorDraw" type="id"/>
+    <item name="editorFlip" type="id"/>
+    <item name="editorGrad" type="id"/>
+    <item name="editorParametric" type="id"/>
+    <item name="editorRedEye" type="id"/>
+    <item name="editorRotate" type="id"/>
+    <item name="editorStraighten" type="id"/>
+    <item name="exposureButton" type="id"/>
+    <item name="highlightRecoveryButton" type="id"/>
+    <item name="hueButton" type="id"/>
+    <item name="imageCurves" type="id"/>
+    <item name="imageOnlyEditor" type="id"/>
+    <item name="imageZoom" type="id"/>
+    <item name="kmeansButton" type="id"/>
+    <item name="negativeButton" type="id"/>
+    <item name="saturationButton" type="id"/>
+    <item name="shadowRecoveryButton" type="id"/>
+    <item name="sharpenButton" type="id"/>
+    <item name="tinyplanetButton" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/ty_ids.xml -->
+    <eat-comment/>
+    <item name="ty_gl_tag" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_ids.xml -->
+    <eat-comment/>
+    <item name="vibranceButton" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="viewpager" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_ids.xml -->
+    <eat-comment/>
+    <item name="vignetteButton" type="id"/>
+    <item name="vignetteEditor" type="id"/>
+    <item name="wbalanceButton" type="id"/>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="album_rows_land">2</integer>
+    <integer name="album_rows_port">4</integer>
+    <integer name="albumset_rows_land">2</integer>
+    <integer name="albumset_rows_port">3</integer>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/config.xml -->
+    <eat-comment/>
+    <integer name="max_video_recording_length">0</integer>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="ty_album_rows_land">5</integer>
+    <integer name="ty_album_rows_port">3</integer>
+    <integer name="ty_album_timegroup_area_hsize">1</integer>
+    <integer name="ty_album_timegroup_area_vsize">1</integer>
+    <integer name="ty_album_timegroup_rows_land">4</integer>
+    <integer name="ty_album_timegroup_rows_port">2</integer>
+    <integer name="ty_albumset_rows_port">4</integer>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <plurals name="delete_selection">
+        <item quantity="one">Delete selected item?</item>
+        <item quantity="other">Delete selected items?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="zero">%1$d items scanned</item>
+        <item quantity="one">%1$d item scanned</item>
+        <item quantity="other">%1$d items scanned</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="one">Making album available offline.</item>
+        <item quantity="other">Making albums available offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="one">%1$d photo</item>
+        <item quantity="other">%1$d photos</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">1 second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="ty_number_of_albums_selected">
+      <item quantity="zero">"Selected albums ( %1$d )"</item>
+      <item quantity="one">"Selected album ( %1$d )"</item>
+      <item quantity="other">"Selected albums ( %1$d )"</item>
+    </plurals>
+    <plurals name="ty_number_of_items_selected">
+      <item quantity="zero">"Selected contents ( %1$d )"</item>
+      <item quantity="one">"Selected content ( %1$d )"</item>
+      <item quantity="other">"Selected contents ( %1$d )"</item>
+    </plurals>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="Fixed">Fixed</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Import">Import</string>
+    <string name="ablum_title_agoday">earlier</string>
+    <string name="ablum_title_month">in a month</string>
+    <string name="ablum_title_month3">within three months</string>
+    <string name="ablum_title_month6">within half a year</string>
+    <string name="ablum_title_today">today</string>
+    <string name="ablum_title_week">in a week</string>
+    <string name="ablum_title_yesterday">yesterday</string>
+    <string name="access_sd_fail" product="default">Couldn\'t access SD card.</string>
+    <string name="accessibility_back_to_first_level">Close setting controls</string>
+    <string name="accessibility_camera_picker">Front and back camera switch</string>
+    <string name="accessibility_check_box">%1$s check box</string>
+    <string name="accessibility_decrement">Decrease %1$s</string>
+    <string name="accessibility_increment">Increase %1$s</string>
+    <string name="accessibility_menu_button">Menu button</string>
+    <string name="accessibility_mode_picker">Camera, video, or panorama selector</string>
+    <string name="accessibility_pause_video">Pause video</string>
+    <string name="accessibility_play_video">Play video</string>
+    <string name="accessibility_reload_video">Reload video</string>
+    <string name="accessibility_review_cancel">Review cancel</string>
+    <string name="accessibility_review_ok">Review done</string>
+    <string name="accessibility_review_retake">Review retake</string>
+    <string name="accessibility_review_thumbnail">Most recent photo</string>
+    <string name="accessibility_second_level_indicators">More setting controls</string>
+    <string name="accessibility_shutter_button">Shutter button</string>
+    <string name="accessibility_switch_to_camera">Switch to photo</string>
+    <string name="accessibility_switch_to_new_panorama">Switch to new panorama</string>
+    <string name="accessibility_switch_to_panorama">Switch to panorama</string>
+    <string name="accessibility_switch_to_refocus">Switch to Refocus</string>
+    <string name="accessibility_switch_to_video">Switch to video</string>
+    <string name="accessibility_time_bar">Video player time bar</string>
+    <string name="accessibility_zoom_control">Zoom control</string>
+    <string name="add_account">Add account</string>
+    <string name="albums">Albums</string>
+    <string name="aperture">Aperture</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="apn">Prefered APN</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Gallery</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="apply_effect">Apply</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="appwidget_empty_text">No photos.</string>
+    <string name="appwidget_title">Photo Gallery</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="aspect">Aspect</string>
+    <string name="aspect1to1_effect">1:1</string>
+    <string name="aspect3to4_effect">3:4</string>
+    <string name="aspect4to3_effect">4:3</string>
+    <string name="aspect4to6_effect">4:6</string>
+    <string name="aspect5to7_effect">5:7</string>
+    <string name="aspect7to5_effect">7:5</string>
+    <string name="aspect9to16_effect">16:9</string>
+    <string name="aspectNone_effect">None</string>
+    <string name="aspectOriginal_effect">@string/original</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="audio_effects">Audio effects</string>
+    <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
+    <string name="auto">Auto</string>
+    <string name="bass_boost_strength">Bass boost</string>
+    <string name="bg_replacement_message">Set your device down.\nStep out of view for a moment.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="bookmark_add">"Add bookmark"</string>
+    <string name="bookmark_add_success">"Add bookmark success"</string>
+    <string name="bookmark_display">"Show bookmarks"</string>
+    <string name="bookmark_empty">"No bookmarks"</string>
+    <string name="bookmark_exist">"Same bookmark in history"</string>
+    <string name="bookmark_list">"Bookmarks"</string>
+    <string name="bookmark_location">"Location"</string>
+    <string name="bookmark_title">"Title"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string msgid="4461692156695893616" name="borders">Frame</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="buffer_size">Buffer Size</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="bwfilter">BW Filter</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="caching_label">Caching\u2026</string>
+    <string name="camera_connected">Camera connected.</string>
+    <string name="camera_disabled">Camera has been disabled because of security policies.</string>
+    <string name="camera_disconnected">Camera disconnected.</string>
+    <string name="camera_error_title">Camera error</string>
+    <string name="camera_label">Camera</string>
+    <string name="camera_menu_more_label">MORE OPTIONS</string>
+    <string name="camera_menu_settings_label">SETTINGS</string>
+    <string name="camera_pixel">Pixel</string>
+    <string name="camera_setas_wallpaper">Wallpaper</string>
+    <string name="can_not_trim">Only mp4 and 3gp file can be trimmed</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_connect_camera">Can\'t connect to the camera.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="cannot_edit_original">Cannot edit original</string>
+    <string name="cannot_load_image">Cannot load the image!</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="capital_off">OFF</string>
+    <string name="capital_on">ON</string>
+    <string name="clear_effects">Clear effects</string>
+    <string name="click_import">Touch here to import</string>
+    <string name="close">Close</string>
+    <string name="collect_photo">"collect photo"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="color_border_clear">Clear</string>
+    <string name="color_border_color">Color</string>
+    <string name="color_border_corner_size">Corner Size</string>
+    <string name="color_border_size">Thickness</string>
+    <string name="color_pick_select">Choose custom color</string>
+    <string name="color_pick_title">Select Color</string>
+    <string name="compare_original">Compare</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_hide">"the photos follow-up added to this album will be also hidden,confirm to hide?"</string>
+    <string name="confirm_to_quit_creating_new_ablum">"confirm to quit creating new ablum?"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="contrast">Contrast</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="count_down_title_text">Counting down to take a photo</string>
+    <string msgid="751593965620665324" name="create">Create</string>
+    <string name="create_new_album">"create new album"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string msgid="5584000454518174632" name="crop">Crop</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="crop_action">Crop</string>
+    <string name="crop_label">Crop picture</string>
+    <string name="crop_save_text">OK</string>
+    <string name="crop_saved">
+        Cropped image saved to <ns1:g id="folder_name">%s</ns1:g>.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="curvesRGB">Curves</string>
+    <string name="curves_channel_blue">Blue</string>
+    <string name="curves_channel_green">Green</string>
+    <string name="curves_channel_red">Red</string>
+    <string name="curves_channel_rgb">RGB</string>
+    <string name="custom_border">Custom</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="default_title">"Default title"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="delete">Delete</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="delete_all">"Delete all"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="delete_photo">"delete photo"</string>
+    <string name="deleted">Deleted</string>
+    <string name="description">Description</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="details">Details</string>
+    <string name="details_hms">%1$dh%2$02dm%3$02ds</string>
+    <string name="details_ms">%1$02dm%2$02ds</string>
+    <string name="details_s">%1$02ds</string>
+    <string name="details_title">%1$d of %2$d items:</string>
+    <string name="dialog_ok">OK</string>
+    <string name="disable_video_snapshot_hint">Video snapshot is disabled when special effects are on.</string>
+    <string name="done">Done</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="download_failure">Could not download photo. Network unavailable.</string>
+    <string name="downsample">Downsample</string>
+    <string name="draw_clear">Clear</string>
+    <string name="draw_color">Color</string>
+    <string name="draw_hue">Hue</string>
+    <string name="draw_saturation">Saturation</string>
+    <string name="draw_size">Size</string>
+    <string name="draw_size_accept">OK</string>
+    <string name="draw_size_title">Select Size</string>
+    <string name="draw_style">Style</string>
+    <string name="draw_style_brush_marker">Spatter</string>
+    <string name="draw_style_brush_spatter">Marker</string>
+    <string name="draw_style_line">Lines</string>
+    <string name="draw_value">Brightness</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="duration">Duration</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="edge">Edges</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="edit">Edit</string>
+    <string name="edit_photo">"edit photo"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="editor_chan_sat_blue">Blue</string>
+    <string name="editor_chan_sat_cyan">Cyan</string>
+    <string name="editor_chan_sat_green">Green</string>
+    <string name="editor_chan_sat_magenta">Magenta</string>
+    <string name="editor_chan_sat_main">Main</string>
+    <string name="editor_chan_sat_red">Red</string>
+    <string name="editor_chan_sat_yellow">Yellow</string>
+    <string name="editor_grad_brightness">Brightness</string>
+    <string name="editor_grad_contrast">Contrast</string>
+    <string name="editor_grad_new">new</string>
+    <string name="editor_grad_saturation">Saturation</string>
+    <string name="editor_grad_style">Style</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="effect_backdropper_gallery">Your video</string>
+    <string name="effect_backdropper_space">In space</string>
+    <string name="effect_backdropper_sunset">Sunset</string>
+    <string name="effect_background">BACKGROUND</string>
+    <string name="effect_goofy_face_big_eyes">Big eyes</string>
+    <string name="effect_goofy_face_big_mouth">Big mouth</string>
+    <string name="effect_goofy_face_big_nose">Big nose</string>
+    <string name="effect_goofy_face_small_eyes">Small eyes</string>
+    <string name="effect_goofy_face_small_mouth">Small mouth</string>
+    <string name="effect_goofy_face_squeeze">Squeeze</string>
+    <string name="effect_none">None</string>
+    <string name="effect_silly_faces">SILLY FACES</string>
+    <string name="empty" translatable="false">" "</string>
+    <string name="empty_album">O images/videos available.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="exit">Exit</string>
+    <string name="export_flattened">Export Flattened Image</string>
+    <string name="export_image">Export</string>
+    <string msgid="1229093066434614811" name="exposure">Exposure</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="exposure_time">Exposure time</string>
+    <string name="fail_to_load">Couldn\'t load</string>
+    <string name="fail_to_load_image">Couldn\'t load the image</string>
+    <string name="fail_trim">Sorry, this video file can not be trimmed</string>
+    <string name="ffx_bleach">Bleach</string>
+    <string name="ffx_blue_crush">Blue</string>
+    <string name="ffx_bw_contrast">B/W</string>
+    <string name="ffx_instant">Instant</string>
+    <string name="ffx_original">Original</string>
+    <string name="ffx_punch">Punch</string>
+    <string name="ffx_vintage">Vintage</string>
+    <string name="ffx_washout">Latte</string>
+    <string name="ffx_washout_color">Litho</string>
+    <string name="ffx_x_process">X Process</string>
+    <string name="file_size">Size</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="filtershow_add_button_looks">Preset</string>
+    <string name="filtershow_add_button_versions">Version</string>
+    <string name="filtershow_exif_aperture">Aperture</string>
+    <string name="filtershow_exif_copyright">Copyright</string>
+    <string name="filtershow_exif_date">Date taken</string>
+    <string name="filtershow_exif_exposure_time">Exposure Time</string>
+    <string name="filtershow_exif_f_stop">F Stop</string>
+    <string name="filtershow_exif_focal_length">Focal Length</string>
+    <string name="filtershow_exif_iso">ISO</string>
+    <string name="filtershow_exif_model">Model</string>
+    <string name="filtershow_exif_subject_distance">Subject Distance</string>
+    <string name="filtershow_manage_preset">Manage user presets</string>
+    <string name="filtershow_new_preset">New Preset</string>
+    <string name="filtershow_notification_label">Saving Image</string>
+    <string name="filtershow_notification_message">Processing...</string>
+    <string name="filtershow_preset_name">Preset Name</string>
+    <string name="filtershow_redo">Redo</string>
+    <string name="filtershow_save_preset">Save current preset</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="filtershow_saving_image">Saving picture to <ns1:g id="album_name">%1$s</ns1:g> \u2026</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="filtershow_show_info_panel">Information</string>
+    <string name="filtershow_show_info_panel_exif">EXIF Data</string>
+    <string name="filtershow_show_info_panel_histogram">Histogram</string>
+    <string name="filtershow_show_info_panel_name">Image Name</string>
+    <string name="filtershow_show_info_panel_size">Image Size</string>
+    <string name="filtershow_undo">Undo</string>
+    <string name="filtershow_version_current">Current</string>
+    <string name="filtershow_version_original">Original</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="flash">Flash</string>
+    <string name="flash_off">No flash</string>
+    <string name="flash_on">Flash fired</string>
+    <string name="focal_length">Focal Length</string>
+    <string name="folder_camera">Camera</string>
+    <string name="folder_download">Download</string>
+    <string name="folder_edited_online_photos">Edited Online Photos</string>
+    <string name="folder_imported">Imported</string>
+    <string name="folder_root">Root</string>
+    <string name="folder_screenshot">Screenshot</string>
+    <string name="free_space_format"><ns1:g id="bytes">%s</ns1:g> free</string>
+    <string name="gadget_title">Picture frame</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="grad">Graduated</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="group_by">Group by</string>
+    <string name="group_by_album">By album</string>
+    <string name="group_by_faces">By people</string>
+    <string name="group_by_location">By location</string>
+    <string name="group_by_size">By size</string>
+    <string name="group_by_tags">By tags</string>
+    <string name="group_by_time">By time</string>
+    <string name="headset_plug">Plug in headphones for these effects.</string>
+    <string name="height">Measure</string>
+    <string name="help">Help</string>
+    <string name="hide_hint">"Hide Hint"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="hide_imagestate_panel">Hide Applied Effects</string>
+    <string name="highlight_recovery">Highlights</string>
+    <string name="history">History</string>
+    <string name="history_original">@string/original</string>
+    <string name="hue">Hue</string>
+    <string name="imageDraw">Draw</string>
+    <string name="imageState">Applied Effects</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <string name="import_complete">Import complete</string>
+    <string name="import_fail">Import unsuccessful</string>
+    <string name="ingest_empty_device">There is no content available for importing on this device.</string>
+    <string name="ingest_importing">Importing...</string>
+    <string name="ingest_no_device">There is no MTP device connected</string>
+    <string msgid="2048262851775139720" name="ingest_scanning">Scanning content...</string>
+    <string name="ingest_scanning_done">Scanning done</string>
+    <string msgid="624687230903648118" name="ingest_sorting">Sorting...</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="input_url">"Input URL"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="iso">ISO</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="kmeans">Posterize</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="loading">Loading\u2026</string>
+    <string name="loading_account">Loading account\u2026</string>
+    <string name="loading_image">Loading image\u2026</string>
+    <string name="loading_video">Loading video\u2026</string>
+    <string name="location">Location</string>
+    <string name="locations">Locations</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="loop">"Loop"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="make_available_offline">Make available offline</string>
+    <string name="maker">Maker</string>
+    <string name="makeup_error">"Can\'t start makeup photo."</string>
+    <string name="makeup_photo">"makeup photo"</string>
+    <string name="manual">Manual</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="max_port">max port:</string>
+    <string name="media_controller_connecting">Connecting...</string>
+    <string name="media_controller_live">Live</string>
+    <string name="media_controller_playing">Playing</string>
+    <string name="media_detail">"Media details"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_delete_photo">delete</string>
+    <string name="menu_search">Search</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="menu_settings">Settings</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="mimetype">MIME type</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="min_port">min port:</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="mirror">Mirror</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="model">Equipment</string>
+    <string name="movie_view_label">Video player</string>
+    <string name="multiface_crop_help">Touch a face to begin.</string>
+    <string name="mute_action">Mute</string>
+    <string name="mute_nosupport">Can not mute : not supported video</string>
+    <string name="muting">Muting</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="negative">Negative</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="next">"Next"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="no_albums_alert">No albums available.</string>
+    <string name="no_connectivity">Some locations couldn\'t be identified due to network problems.</string>
+    <string name="no_external_storage">No external storage available</string>
+    <string name="no_external_storage_title">No Storage</string>
+    <string name="no_faces">No faces</string>
+    <string name="no_location">No location</string>
+    <string name="no_storage" product="default">Insert an SD card before using the camera.</string>
+    <string name="no_such_item">Couldn\'t find item.</string>
+    <string name="no_thumbnail">No thumbnail</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string msgid="3601545724573307541" name="none">None</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="not_selectable_in_scene_mode">Not selectable in scene mode.</string>
+    <string name="ok">OK</string>
+    <string name="orientation">Orientation</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="original">Original</string>
+    <string name="original_picture_text">@string/original</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pano_capture_indication">Capturing panorama</string>
+    <string name="pano_dialog_panorama_failed">Couldn\'t save panorama.</string>
+    <string name="pano_dialog_prepare_preview">Preparing panorama</string>
+    <string name="pano_dialog_title">Panorama</string>
+    <string name="pano_dialog_waiting_previous">Waiting for previous panorama</string>
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
+    <string name="pano_progress_text">Rendering panorama</string>
+    <string name="pano_review_rendering">Rendering panorama</string>
+    <string name="pano_review_saving_indication_str">Saving\u2026</string>
+    <string name="pano_too_fast_prompt">Too fast</string>
+    <string name="path">Path</string>
+    <string name="people">People</string>
+    <string name="photograph">"take photo"</string>
+    <string name="picasa_posts">Posts</string>
+    <string name="please_wait">Please wait</string>
+    <string name="pref_camcorder_settings_category">Camcorder settings</string>
+    <string name="pref_camera_countdown_label">COUNTDOWN TIMER</string>
+    <string name="pref_camera_countdown_label_fifteen">15 SECONDS</string>
+    <string name="pref_camera_countdown_label_off">TIMER OFF</string>
+    <string name="pref_camera_countdown_label_one">1 SECOND</string>
+    <string name="pref_camera_countdown_label_ten">10 SECONDS</string>
+    <string name="pref_camera_countdown_label_three">3 SECONDS</string>
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>
+    <string name="pref_camera_flashmode_entry_auto">Auto</string>
+    <string name="pref_camera_flashmode_entry_off">Off</string>
+    <string name="pref_camera_flashmode_entry_on">On</string>
+    <string name="pref_camera_flashmode_label">FLASH MODE</string>
+    <string name="pref_camera_flashmode_label_auto">FLASH AUTO</string>
+    <string name="pref_camera_flashmode_label_off">FLASH OFF</string>
+    <string name="pref_camera_flashmode_label_on">FLASH ON</string>
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
+    <string name="pref_camera_flashmode_title">Flash mode</string>
+    <string name="pref_camera_focusmode_entry_auto">Auto</string>
+    <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
+    <string name="pref_camera_focusmode_entry_macro">Macro</string>
+    <string name="pref_camera_focusmode_label_auto">AUTO</string>
+    <string name="pref_camera_focusmode_label_infinity">INFINITY</string>
+    <string name="pref_camera_focusmode_label_macro">MACRO</string>
+    <string name="pref_camera_focusmode_title">Focus mode</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_label">HDR</string>
+    <string name="pref_camera_id_default" translatable="false">0</string>
+    <string name="pref_camera_id_entry_back">Back</string>
+    <string name="pref_camera_id_entry_front">Front</string>
+    <string name="pref_camera_id_label_back">FRONT CAMERA</string>
+    <string name="pref_camera_id_label_front">BACK CAMERA</string>
+    <string name="pref_camera_id_title">Choose camera</string>
+    <string name="pref_camera_location_label">LOCATION</string>
+    <string name="pref_camera_picturesize_entry_13mp">13M pixels</string>
+    <string name="pref_camera_picturesize_entry_1_3mp">1.3M pixels</string>
+    <string name="pref_camera_picturesize_entry_1mp">1M pixels</string>
+    <string name="pref_camera_picturesize_entry_2mp">2M pixels</string>
+    <string name="pref_camera_picturesize_entry_2mp_wide">2M pixels (16:9)</string>
+    <string name="pref_camera_picturesize_entry_3mp">3M pixels</string>
+    <string name="pref_camera_picturesize_entry_4mp">4M pixels</string>
+    <string name="pref_camera_picturesize_entry_5mp">5M pixels</string>
+    <string name="pref_camera_picturesize_entry_8mp">8M pixels</string>
+    <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
+    <string name="pref_camera_picturesize_entry_vga">VGA</string>
+    <string name="pref_camera_picturesize_title">Picture size</string>
+    <string name="pref_camera_recordlocation_default" translatable="false">none</string>
+    <string name="pref_camera_recordlocation_title">Store location</string>
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+    <string name="pref_camera_scenemode_entry_action">Action</string>
+    <string name="pref_camera_scenemode_entry_auto">Auto</string>
+    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
+    <string name="pref_camera_scenemode_entry_night">Night</string>
+    <string name="pref_camera_scenemode_entry_party">Party</string>
+    <string name="pref_camera_scenemode_entry_sunset">Sunset</string>
+    <string name="pref_camera_scenemode_label_action">ACTION</string>
+    <string name="pref_camera_scenemode_label_auto">NONE</string>
+    <string name="pref_camera_scenemode_label_night">NIGHT</string>
+    <string name="pref_camera_scenemode_label_party">PARTY</string>
+    <string name="pref_camera_scenemode_label_sunset">SUNSET</string>
+    <string name="pref_camera_scenemode_title">Scene mode</string>
+    <string name="pref_camera_settings_category">Camera settings</string>
+    <string name="pref_camera_timer_default" translatable="false">0</string>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
+    <string name="pref_camera_timer_sound_title">Beep during countdown</string>
+    <string name="pref_camera_timer_title">Countdown timer</string>
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
+    <string name="pref_camera_whitebalance_label">WHITE BALANCE</string>
+    <string name="pref_camera_whitebalance_label_auto">AUTO</string>
+    <string name="pref_camera_whitebalance_label_cloudy">CLOUDY</string>
+    <string name="pref_camera_whitebalance_label_daylight">DAYLIGHT</string>
+    <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
+    <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
+    <string name="pref_camera_whitebalance_title">White balance</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+    <string name="pref_exposure_label">EXPOSURE</string>
+    <string name="pref_exposure_title">Exposure</string>
+    <string name="pref_video_effect_default" translatable="false">none</string>
+    <string name="pref_video_effect_title">Effects</string>
+    <string name="pref_video_quality_default" translatable="false">5</string>
+    <string name="pref_video_quality_entry_1080p" translatable="false">HD 1080p</string>
+    <string name="pref_video_quality_entry_480p" translatable="false">SD 480p</string>
+    <string name="pref_video_quality_entry_720p" translatable="false">HD 720p</string>
+    <string name="pref_video_quality_entry_high">High</string>
+    <string name="pref_video_quality_entry_low">Low</string>
+    <string name="pref_video_quality_title">Video quality</string>
+    <string name="pref_video_time_lapse_frame_interval_1000">1 second</string>
+    <string name="pref_video_time_lapse_frame_interval_10000">10 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_10800000">3 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_12000">12 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_120000">2 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_1440000">24 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_14400000">4 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_1500">1.5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_15000">15 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_150000">2.5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_180000">3 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_1800000">0.5 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_18000000">5 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_2000">2 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_21600000">6 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_24000">24 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_240000">4 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_2500">2.5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_3000">3 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_30000">0.5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_300000">5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_360000">6 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_3600000">1 hour</string>
+    <string name="pref_video_time_lapse_frame_interval_36000000">10 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_4000">4 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_43200000">12 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_500">0.5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_5000">5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_5400000">1.5 hour</string>
+    <string name="pref_video_time_lapse_frame_interval_54000000">15 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_6000">6 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_60000">1 minute</string>
+    <string name="pref_video_time_lapse_frame_interval_600000">10 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_720000">12 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_7200000">2 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_86400000">24 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_90000">1.5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_900000">15 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_9000000">2.5 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_default" translatable="false">0</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Off</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Time lapse</string>
+    <string name="preparing_sd" product="default">Preparing SD card\u2026</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="previous">"Previous"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="print_image">Print</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="process_caching_requests">Processing caching requests</string>
+    <string name="prompt">"Prompt"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="quality">Quality</string>
+    <string name="redeye">Red Eye</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="remember_location_no">No thanks</string>
+    <string name="remember_location_prompt">Tag your photos and videos with the locations where they are taken.\n\nOther apps can access this information along with your saved images.</string>
+    <string name="remember_location_title">Remember photo locations?</string>
+    <string name="remember_location_yes">Yes</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="reset">Reset</string>
+    <string name="reset_effect">Reset</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="resume_playing_message">Resume playing from %s ?</string>
+    <string name="resume_playing_restart">Start over</string>
+    <string name="resume_playing_resume">Resume playing</string>
+    <string name="resume_playing_title">Resume video</string>
+    <string name="review_cancel">CANCEL</string>
+    <string name="review_ok">DONE</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string msgid="460017689320955494" name="rotate">Rotate</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="rotate_left">Rotate left</string>
+    <string name="rotate_right">Rotate right</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="rtp_max_port">Max port</string>
+    <string name="rtp_min_port">Min port</string>
+    <string name="rtp_rtcp">RTP/RTCP</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="saturation">Saturation</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string msgid="8140440041190264400" name="save">Save</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="save_and_exit">Save and Exit</string>
+    <string name="save_and_processing">Processing full resolution image...</string>
+    <string name="save_before_exit">Do you want to save before exiting?</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="save_error">Couldn\'t save cropped image.</string>
+    <string name="save_into">Saving video to <ns1:g id="album_name">%1$s</ns1:g> \u2026</string>
+    <string name="saved_success">Saved video to <ns1:g id="album_name">%1$s</ns1:g> </string>
+    <string name="saving_image">Saving picture\u2026</string>
+    <string name="select_album">Select album</string>
+    <string name="select_all">Select all</string>
+    <string name="select_group">Select group</string>
+    <string name="select_image">Select photo</string>
+    <string name="select_item">Select item</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="select_output_settings">The exported image will be a copy, without the history.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="select_video">Select video</string>
+    <string name="sequence_in_set">%1$d of %2$d items:</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="server_timeout_message">"Reconnect the server to play the video or not?"</string>
+    <string name="server_timeout_title">"Server Timeout"</string>
+    <string name="set_apn">Select prefered apn</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="set_as">Set as</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="set_buffer_size">Set buffer size</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="set_duration">Set duration in seconds</string>
+    <string name="set_image">Set picture as</string>
+    <string name="set_label_all_albums">All albums</string>
+    <string name="set_label_local_albums">Local albums</string>
+    <string name="set_label_mtp_devices">MTP devices</string>
+    <string name="set_label_picasa_albums">Picasa albums</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="set_rtp_max_port">Set max port</string>
+    <string name="set_rtp_min_port">Set min port</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="set_time_interval">Set Time Interval</string>
+    <string name="set_time_interval_help">Time lapse feature is off. Turn it on to set time interval.</string>
+    <string name="set_timer_help">Countdown timer is off. Turn it on to count down before taking a picture.</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="setting">Settings</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="setting_off">Off</string>
+    <string name="setting_off_value" translatable="false">off</string>
+    <string name="setting_on">On</string>
+    <string name="setting_on_value" translatable="false">on</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="setting_wallpaper">Setting wallpaper</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="settings">Settings</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="shadow_recovery">Shadows</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="share">Share</string>
+    <string name="share_as_photo">Share as photo</string>
+    <string name="share_panorama">Share panorama</string>
+    <string name="share_photo">"share photo"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="sharpness">Sharpness</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="show_all">Images &amp; videos</string>
+    <string name="show_images_only">Images only</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="show_imagestate_panel">Show Applied Effects</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="show_on_map">Show on map</string>
+    <string name="show_videos_only">Videos only</string>
+    <string name="simple_edit">Simple Edit</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="single">"Single"</string>
+    <string name="single_track">"Single track"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="size">Size</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="size_above"><ns1:g id="size">%1$s</ns1:g> or above</string>
+    <string name="size_below"><ns1:g id="size">%1$s</ns1:g> or below</string>
+    <string name="size_between"><ns1:g id="min_size">%1$s</ns1:g> to <ns1:g id="max_size">%2$s</ns1:g></string>
+    <string name="slideshow">Slideshow</string>
+    <string name="slideshow_dream_name">Slideshow</string>
+    <string name="spaceIsLow_content" product="default">Your storage is running out of space. Change the quality setting or delete some images or other files.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="speaker_need_headset">Please plug in headset first!</string>
+    <string name="speaker_off">Speaker OFF</string>
+    <string name="speaker_on">Speaker ON</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="state_panel_original">Original</string>
+    <string name="state_panel_result">Result</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="step_option_alternate">5 seconds</string>
+    <string name="step_option_default">10 seconds</string>
+    <string name="step_option_desc">Customize fast forward/backward step</string>
+    <string name="step_option_name">Step</string>
+    <string name="stereo">"Stereo"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string msgid="5217801513491493491" name="straighten">Straighten</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="streaming_settings">"Streaming Settings"</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="switch_photo_filmstrip">Filmstrip view</string>
+    <string name="switch_photo_fullscreen">Fullscreen view</string>
+    <string name="switch_photo_grid">Grid view</string>
+    <string name="switch_to_camera">Switch to Camera</string>
+    <string name="sync_album_error">Couldn\'t download the photos in this album. Retry later.</string>
+    <string name="sync_picasa_albums">Refresh</string>
+    <string name="tab_albums">All</string>
+    <string name="tab_photos">Photos</string>
+    <string name="tags">Tags</string>
+    <string name="tap_to_focus">Touch to focus.</string>
+    <string name="time">Time</string>
+    <string name="time_lapse_hours">hours</string>
+    <string name="time_lapse_interval_set">Done</string>
+    <string name="time_lapse_minutes">minutes</string>
+    <string name="time_lapse_seconds">seconds</string>
+    <string name="time_lapse_title">Time lapse recording</string>
+    <string name="timegroup_dateformate_with_year">﻿MMM d, yyyy</string>
+    <string name="timegroup_dateformate_without_year">MMM d</string>
+    <string name="times">Times</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="tinyplanet">Tiny Planet</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title">Title</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_filter_show">Photo Editor</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="trim_action">Trim</string>
+    <string name="trim_label">Trim video</string>
+    <string name="trim_too_short">Can not trim : target video is too short</string>
+    <string name="trimming">Trimming</string>
+    <string name="try_to_set_local_album_available_offline">
+        This item is stored locally and available offline.</string>
+    <string name="ty_add_new_photo">"Add new file(s)"</string>
+    <string name="ty_add_to_album">"Add"</string>
+    <string name="ty_add_to_album_fail">"Fail to add"</string>
+    <string name="ty_add_to_album_fail_exists">"The selected has been in existence"</string>
+    <string name="ty_add_to_album_fail_part_exists">"Added file successfully"</string>
+    <string name="ty_add_to_album_sucess">"Added file successfully"</string>
+    <string name="ty_add_to_album_title">"Add to"</string>
+    <string name="ty_album_name">album name</string>
+    <string name="ty_collect">"Favorites"</string>
+    <string name="ty_collect_to_album_fail">"Fail to collect"</string>
+    <string name="ty_collect_to_album_fail_exists">"Collected"</string>
+    <string name="ty_collect_to_album_sucess">"Collected successfully"</string>
+    <string name="ty_create_album_success">"Success to create new album"</string>
+    <string name="ty_delete_fail">"Fail to delete"</string>
+    <string name="ty_delete_sucess">"Deleted successfully"</string>
+    <string name="ty_details">"Details"</string>
+    <string name="ty_details_title">"file information"</string>
+    <string name="ty_empty_album">"No albums"</string>
+    <string name="ty_empty_photo">"No photos"</string>
+    <string name="ty_folder_collect">"Favorites"</string>
+    <string name="ty_folder_exist">album is exist</string>
+    <string name="ty_hide">Hide</string>
+    <string name="ty_hide_fail">"Fail to Hide"</string>
+    <string name="ty_hide_sucess">"Hidden successfully"</string>
+    <string name="ty_max_share_items">"Share items can not be more than <ns1:g id="SIZE">%1$s</ns1:g>"</string>
+    <string name="ty_menu_add_to_album">"Add to album"</string>
+    <string name="ty_newalbum">New album</string>
+    <string name="ty_remove_from_collect">"Remove from Collect"</string>
+    <string name="ty_remove_from_collect_fail">"Failed to remove from Collect"</string>
+    <string name="ty_set_image">"Set as"</string>
+    <string name="ty_share_title">"Share to"</string>
+    <string name="ty_showhidden">Show hidden</string>
+    <string name="ty_showhidden_fail">"Fail to show hidden"</string>
+    <string name="ty_showhidden_sucess">"show hidden successfully"</string>
+    <string name="ty_showhidden_with_count">"Show hidden ( %1$d )"</string>
+    <string name="ty_tab_album">"Albums"</string>
+    <string name="ty_tab_photo">"Pictures"</string>
+    <string name="undo">UNDO</string>
+    <string name="unit_mm">mm</string>
+    <string name="unknown">Unknown</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="unsaved">There are unsaved changes to this image.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="untagged">Untagged</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="vibrance">Vibrance</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="video_err">Can\'t play video.</string>
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>
+    <string name="video_mute_err">Can\'t mute video.</string>
+    <string name="video_reach_size_limit">Size limit reached.</string>
+    <string name="video_recording_started">Video recording has started.</string>
+    <string name="video_recording_stopped">Video recording has stopped.</string>
+    <string name="video_snapshot_hint">Touch to take photo while recording.</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/codeaurora_strings.xml -->
+    <eat-comment/>
+    <string name="videoview_error_text_cannot_connect_retry">"Connection failed, try to reconnect %1$d..."</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="vignette">Vignette</string>
+    <string name="vignette_contrast">Contrast</string>
+    <string name="vignette_exposure">Exposure</string>
+    <string name="vignette_falloff">Falloff</string>
+    <string name="vignette_main">Vignette</string>
+    <string name="vignette_saturation">Saturation</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="virtualizer_strength">3D effect</string>
+    <string name="wait">Please wait\u2026</string>
+    <string name="wallpaper">Setting wallpaper\u2026</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="wbalance">Autocolor</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="white_balance">White balance</string>
+    <string name="widget_type">Choose images</string>
+    <string name="widget_type_album">Choose an album</string>
+    <string name="widget_type_photo">Choose an image</string>
+    <string name="widget_type_shuffle">Shuffle all images</string>
+    <string name="width">Width</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_strings.xml -->
+    <eat-comment/>
+    <string name="x">x</string>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBarTwoLineItem">
+        <item name="android:background">@drawable/action_bar_two_line_background</item>
+    </style>
+    <style name="ActionBarTwoLinePrimary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"/>
+    <style name="ActionBarTwoLineSecondary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"/>
+    <style name="Animation_OnScreenHint">
+        <item name="android:windowEnterAnimation">@anim/on_screen_hint_enter</item>
+        <item name="android:windowExitAnimation">@anim/on_screen_hint_exit</item>
+    </style>
+    <style name="CameraControls">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/list_selector_holo_dark</item>
+        <!--<item name="android:background">@drawable/ty_bg</item>-->
+    </style>
+    <style name="EffectSettingGrid">
+        <item name="android:layout_marginLeft">@dimen/setting_item_list_margin</item>
+        <item name="android:layout_marginRight">@dimen/setting_item_list_margin</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:numColumns">3</item>
+        <item name="android:verticalSpacing">3dp</item>
+        <item name="android:horizontalSpacing">3dp</item>
+        <item name="android:choiceMode">singleChoice</item>
+    </style>
+    <style name="EffectSettingItem">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">9dp</item>
+        <item name="android:paddingBottom">9dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:background">@drawable/setting_picker</item>
+    </style>
+    <style name="EffectSettingItemTitle">
+        <item name="android:textSize">@dimen/effect_setting_item_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">1dp</item>
+    </style>
+    <style name="EffectSettingTypeTitle">
+        <item name="android:textSize">@dimen/effect_setting_type_text_size</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/effect_setting_type_text_min_height</item>
+        <item name="android:paddingLeft">@dimen/effect_setting_type_text_left_padding</item>
+    </style>
+    <style name="EffectTitleSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@android:drawable/divider_horizontal_dark</item>
+    </style>
+    <style name="EffectTypeSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#2c2c2c</item>
+    </style>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/iconbutton_styles.xml -->
+    <eat-comment/>
+    <style name="FilterIconButton">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/filtershow_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/filtershow_styles.xml -->
+    <eat-comment/>
+    <style name="FilterShowBottomButton">
+        <item name="android:layout_width">96dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/filtershow_button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">16dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="FilterShowHistoryButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/filtershow_button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="FilterShowSlider">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/filtershow_slider</item>
+        <item name="android:indeterminateDrawable">@drawable/filtershow_slider</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/filtershow_scrubber</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+    </style>
+    <style name="FilterShowTopButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/filtershow_button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Gallary.Widget.Holo.SeekBar" parent="@android:style/Widget.Holo.SeekBar">
+
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        
+    </style>
+    <style name="Holo.ActionBar" parent="android:Widget.Holo.ActionBar">
+<!--TIANYURD:yanghao add for UI start-->
+        <!--        <item name="android:displayOptions">useLogo|showHome</item>
+    -->    
+    <!--TIANYURD:yanghao add for UI end-->  
+        <item name="android:background">@drawable/actionbar_translucent</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/iconbutton_styles.xml -->
+    <eat-comment/>
+    <style name="IconButton">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/filtershow_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ListPopupMenuTheme" parent="android:style/Widget.Holo.PopupMenu">
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_dark</item>
+    </style>
+    <style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="ListViewSelectBackGround" parent="android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/list_selector_holo_dark</item>
+    </style>
+    <style name="MediaButton.Play" parent="@android:style/MediaButton.Play">
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/icn_media_play</item>
+    </style>
+    <style name="MenuIndicator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:enabled">false</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="OnScreenHintTextAppearance">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="OnScreenHintTextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+    </style>
+    <style name="OnViewfinderLabel">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/bg_text_on_preview</item>
+    </style>
+    <style name="PanoCustomDialogText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+    <style name="PanoCustomDialogText_xlarge">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+    <style name="PopupTitleSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/popup_title_color</item>
+    </style>
+    <style name="PopupTitleText_xlarge">
+        <item name="android:textSize">@dimen/popup_title_text_size</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/popup_title_color</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="ReviewControlText_xlarge">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/bg_pressed_exit_fading</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="ReviewPlayIcon">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/ic_gallery_play_big</item>
+    </style>
+    <style name="SettingItemList">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:listSelector">@drawable/bg_pressed</item>
+    </style>
+    <style name="SettingItemText">
+        <item name="android:layout_width">@dimen/setting_item_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/setting_item_text_size</item>
+    </style>
+    <style name="SettingItemTitle">
+        <item name="android:textSize">@dimen/setting_item_text_size</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SettingRow">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/setting_row_height</item>
+        <item name="android:paddingLeft">@dimen/setting_item_list_margin</item>
+        <item name="android:paddingRight">@dimen/setting_item_list_margin</item>
+        <item name="android:background">@drawable/setting_picker</item>
+    </style>
+    <style name="SwitcherButton">
+        <item name="android:layout_width">@dimen/switcher_size</item>
+        <item name="android:layout_height">@dimen/switcher_size</item>
+        <item name="android:background">@drawable/bg_pressed_exit_fading</item>
+    </style>
+    <style name="TYGalleryActionBarStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ty_transparent</item>
+    </style>
+    <style name="TYGalleryLightTheme" parent="@android:style/Theme.Light">
+        <item name="android:actionBarStyle">@style/TYGalleryActionBarStyle</item>
+         <item name="android:windowBackground">@color/default_background</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="TYGalleryLightThemeMovieActivity" parent="@android:style/Theme.Light">
+        <item name="android:actionBarStyle">@style/TYGalleryActionBarStyle</item>
+         <item name="android:windowBackground">@color/photo_background_dark</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="TYGalleryLightThemeTyGalleryActivity" parent="@android:style/Theme.Light">
+        <item name="android:actionBarStyle">@style/TYGalleryActionBarStyle</item>
+         <item name="android:windowBackground">@color/default_background</item>
+        <item name="android:windowIsTranslucent">false</item>
+         <!-- TY zhencc 20150724 add for PROD103841758 begin -->
+        <item name="android:windowAnimationStyle">@style/TYTaskCloseStyle</item>
+        <!-- TY zhencc 20150724 add for PROD103841758 end -->
+    </style>
+    <style name="TYTaskCloseStyle" parent="@android:style/Animation.Activity">
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="TextAppearance.DialogWindowTitle" parent="">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Medium"/>
+    <style name="Theme.Camera" parent="Theme.CameraBase">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
+    </style>
+    <style name="Theme.CameraBase" parent="android:Theme.Black.NoTitleBar.Fullscreen"/>
+    <style name="Theme.Crop" parent="Theme.GalleryBase">
+        <item name="android:displayOptions"/>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:colorBackground">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+    </style>
+    <style name="Theme.FilterShow" parent="Theme.Gallery">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="Theme.Gallery" parent="Theme.GalleryBase">
+        <item name="android:displayOptions"/>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:windowBackground">@color/default_background</item>
+        <item name="android:colorBackground">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <!--TIANYURD:yanghao modify for UI start-->
+        <item name="android:actionBarItemBackground">@drawable/item_background_holo_dark</item>
+        <item name="android:homeAsUpIndicator">@drawable/ty_selection_close</item>
+
+        <item name="android:listViewStyle">@style/ListViewSelectBackGround</item>
+        <item name="android:listPopupWindowStyle">@style/ListPopupMenuTheme</item>
+        <item name="android:popupMenuStyle">@style/ListPopupMenuTheme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:seekBarStyle">@style/Gallary.Widget.Holo.SeekBar</item>
+        <!--TIANYURD:yanghao modify for UI end-->
+    </style>
+    <style name="Theme.Gallery.Dialog" parent="android:Theme.Holo.Dialog"/>
+    <style name="Theme.GalleryBase" parent="@android:style/Theme.Holo">
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="switchStyle">@android:style/Widget.CompoundButton</item>
+    </style>
+    <style name="TyAddToAlbum" parent="@android:style/Theme.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+     </style>
+    <style name="TyAlbumpicBasicStyle">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">#dcdcdd</item>  
+        <item name="android:paddingTop">1px</item>
+        <item name="android:paddingBottom">1px</item>
+        <item name="android:paddingLeft">1px</item>
+        <item name="android:paddingRight">1px</item>
+        <item name="android:cropToPadding">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="TyAlbumpicBasicStyleFrameLayout">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+    <style name="UndoBar">
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@drawable/panel_undo_holo</item>
+    </style>
+    <style name="UndoBarSeparator">
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+    <style name="UndoBarTextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="UndoButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:background">@drawable/bg_pressed</item>
+    </style>
+    <style name="ViewfinderLabelLayout_xlarge">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">13dp</item>
+    </style>
+    <style name="Widget.Button.Borderless" parent="android:Widget.Button">
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+</resources>

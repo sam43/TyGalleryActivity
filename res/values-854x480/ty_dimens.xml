@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU:yuxin add for ty camera -->
+<resources>  
+    <dimen name="ty_appwidget_width">294dp</dimen>
+    <dimen name="ty_appwidget_height">220dp</dimen>
+    <dimen name="ty_stack_photo_width">186dp</dimen>
+    <dimen name="ty_stack_photo_height">132dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU yuxin add for New Design Gallery -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:insetLeft="@dimen/ty_btn_circle_elevat"
+       android:insetTop="@dimen/ty_btn_circle_elevat"
+       android:insetRight="@dimen/ty_btn_circle_elevat"
+       android:insetBottom="@dimen/ty_btn_circle_elevat">
+    <shape android:shape="oval">
+        <solid android:color="@color/ty_title_accent_color" />
+    </shape>
+</inset>
+
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/drawable/ty_btn_circle_title_shape.xml -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android\workspace\TyGalleryActivity\lib\mp4_parser.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e05eb6593efcdfcec5edc2368058417b1032e821">
+        <dex dex="D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\mp4_parser-b4b18f44bee20530a3932add96cd53454c81a027.jar" />
+    </item>
+    <item
+        jar="D:\android\workspace\TyGalleryActivity\lib\renderscript-v8.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2b276904cd854be6d460f2bcec9cf2cddaf580c1">
+        <dex dex="D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\renderscript-v8-83014b3c9256780875a0560e9520f6780b0332d7.jar" />
+    </item>
+    <item
+        jar="D:\android\workspace\TyGalleryActivity\lib\xml_toolkit.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="72a8d0dda9a7db17f7fdc7a479fec8ea4d0fabdc">
+        <dex dex="D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\xml_toolkit-b5a6d568f5dfcf932d49ee07362aff4e26d3cd3b.jar" />
+    </item>
+    <item
+        jar="D:\android\workspace\TyGalleryActivity\lib\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\android-support-v4-4b2dcedeec45b64b187d5345b7f3736445dfb88a.jar" />
+    </item>
+
+</items>

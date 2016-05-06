@@ -1,0 +1,5 @@
+D:\android\workspace\TyGalleryActivity\build\intermediates\classes\debug
+D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\renderscript-v8-83014b3c9256780875a0560e9520f6780b0332d7.jar
+D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\xml_toolkit-b5a6d568f5dfcf932d49ee07362aff4e26d3cd3b.jar
+D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\mp4_parser-b4b18f44bee20530a3932add96cd53454c81a027.jar
+D:\android\workspace\TyGalleryActivity\build\intermediates\pre-dexed\debug\android-support-v4-4b2dcedeec45b64b187d5345b7f3736445dfb88a.jar

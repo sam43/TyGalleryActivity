@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.android.gallery3d.app.TyTransbackTitleIndicator
+		android:id="@+id/ty_transback_ind"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/ty_page_top_bar_height"
+		android:gravity="center_vertical"
+		android:background="@color/ty_title_tran_bg_color"
+		android:visibility="gone">
+	    <ImageButton
+                android:layout_marginLeft="20dp"
+	        android:id="@+id/ty_action_title_trans_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/ty_selection_close"
+	        />
+          
+             <ImageView
+	        android:id="@+id/ty_action_user_photo"
+	        android:layout_centerVertical="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+	        android:src="@drawable/default_user_photo"
+	       />
+              
+	</com.android.gallery3d.app.TyTransbackTitleIndicator>
+</merge>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_transbacktitle_layout.xml -->

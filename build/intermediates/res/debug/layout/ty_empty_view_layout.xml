@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TY zhencc add for New Design Gallery -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ty_empty_layout" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	android:orientation="vertical"
+	android:background="@color/album_background"
+	android:visibility="gone" >
+	<RelativeLayout 
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent">
+		<ImageView android:id="@+id/ty_empty_image"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true" 
+			android:src="@drawable/ty_ic_gallery_blank"/>
+		<TextView android:id="@+id/ty_empty_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true"
+			android:layout_below="@+id/ty_empty_image" 
+			android:textSize="19sp" 
+			android:textColor="#95a2ad" 
+			android:text="@string/ty_empty_photo"/>
+	</RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_empty_view_layout.xml -->

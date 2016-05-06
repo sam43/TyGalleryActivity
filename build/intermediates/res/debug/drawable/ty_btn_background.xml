@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU yuxin add for New Design Gallery -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/ty_shadow_color">
+    <item android:drawable="@drawable/ty_btn_shape" />
+</ripple>
+
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/drawable/ty_btn_background.xml -->

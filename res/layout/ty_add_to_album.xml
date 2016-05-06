@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<LinearLayout
+		android:id="@+id/top"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/ty_actionbar_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+		android:background="@color/ty_title_accent_color">
+		<!--TIANYU hanpengzhe 20151204 modify for drawable from light to dark begin -->
+	    <!--<Button
+	        android:id="@+id/ic_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:gravity="center_vertical"
+	        android:text="@string/ty_menu_add_to_album"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:ellipsize="end"
+	        android:textSize="@dimen/ty_title_font_size"
+	        android:textColor="@color/ty_title_font_color"
+	        android:drawableLeft="@drawable/ty_selection_close_light"
+	        android:background="@drawable/ty_back_title_background"/>-->
+	    <Button
+	        android:id="@+id/ic_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:gravity="center_vertical"
+	        android:text="@string/ty_menu_add_to_album"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:ellipsize="end"
+	        android:textSize="@dimen/ty_title_font_size"
+	        android:textColor="@color/ty_title_font_color"
+	        android:drawableLeft="@drawable/ty_selection_close"
+	        />
+	    <!--TIANYU hanpengzhe 20151204 modify for drawable from light to dark end -->
+	</LinearLayout>
+	
+	<ListView
+		android:id="@+id/add"
+		android:layout_below="@+id/top"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbars="none"
+		android:layout_marginBottom="@dimen/ty_bottom_select" >
+	</ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ty_bottom_select"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="#dddddd"/>
+		<Button
+		    android:id="@+id/create_new_album"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="@string/ty_newalbum"
+			android:textAllCaps="false"
+			android:textSize="@dimen/ty_bottom_font_size"
+			/>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU hanpengzhe 20130723 add for typhoto_widget -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        >
+    <RelativeLayout
+            android:id="@+id/appwidget_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+        <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/appwidget_photo_border">
+            <TextView
+                    android:id="@+id/appwidget_photo_item"
+                    android:layout_width="@dimen/ty_stack_photo_width"
+                    android:layout_height="@dimen/ty_stack_photo_height"
+                    android:gravity="center"
+                    android:text="@string/appwidget_empty_text"/>
+        </FrameLayout>
+    </RelativeLayout>
+   <!--   <com.android.typhotowidget.TYStackView  -->
+   <!--  <StackView-->
+   <TYStackView      
+            android:id="@+id/appwidget_stack_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  
+            android:layoutAnimation = "@anim/ty_anim_widget_load"  
+            android:paddingLeft="27dp"                              
+            android:layout_gravity="center_vertical|center_horizontal"      
+            android:loopViews="true" />
+</FrameLayout>
+

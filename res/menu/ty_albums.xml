@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tywangqin add for gallery2 begin -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/ty_albums_operation_menu"
+        android:visible="false">
+        <item android:id="@+id/ty_action_delete"
+                android:title="@string/delete"
+                android:showAsAction="never" />
+        <item android:id="@+id/ty_action_share"
+                android:title="@string/share"
+                android:showAsAction="never" />
+        <item android:id="@+id/ty_action_hide"
+                android:title="@string/ty_hide"
+                android:showAsAction="never"/>
+        <item android:id="@+id/ty_action_show"
+                android:title="@string/ty_showhidden"
+                android:visible="false"
+                android:showAsAction="never"/>  
+    </group>
+</menu>

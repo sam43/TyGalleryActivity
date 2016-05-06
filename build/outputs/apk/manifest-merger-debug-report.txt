@@ -1,0 +1,665 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:20:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:22:9
+	package
+		ADDED from AndroidManifest.xml:23:9
+	android:versionName
+		ADDED from AndroidManifest.xml:21:9
+	android:versionCode
+		ADDED from AndroidManifest.xml:20:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+original-package
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:23
+uses-sdk
+ADDED from AndroidManifest.xml:27:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:27:42
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:27:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+permission#com.android.gallery3d.permission.GALLERY_PROVIDER
+ADDED from AndroidManifest.xml:29:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:30:13
+	android:name
+		ADDED from AndroidManifest.xml:29:17
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:34:5
+	android:name
+		ADDED from AndroidManifest.xml:34:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:36:5
+	android:name
+		ADDED from AndroidManifest.xml:36:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:37:5
+	android:name
+		ADDED from AndroidManifest.xml:37:22
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from AndroidManifest.xml:38:5
+	android:name
+		ADDED from AndroidManifest.xml:38:22
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:39:5
+	android:name
+		ADDED from AndroidManifest.xml:39:22
+uses-permission#android.permission.NFC
+ADDED from AndroidManifest.xml:40:5
+	android:name
+		ADDED from AndroidManifest.xml:40:22
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from AndroidManifest.xml:41:5
+	android:name
+		ADDED from AndroidManifest.xml:41:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:42:5
+	android:name
+		ADDED from AndroidManifest.xml:42:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:43:5
+	android:name
+		ADDED from AndroidManifest.xml:43:22
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from AndroidManifest.xml:44:5
+	android:name
+		ADDED from AndroidManifest.xml:44:22
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from AndroidManifest.xml:45:5
+	android:name
+		ADDED from AndroidManifest.xml:45:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:46:5
+	android:name
+		ADDED from AndroidManifest.xml:46:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:47:5
+	android:name
+		ADDED from AndroidManifest.xml:47:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:48:5
+	android:name
+		ADDED from AndroidManifest.xml:48:22
+uses-permission#android.permission.WRITE_MEDIA_STORAGE
+ADDED from AndroidManifest.xml:50:5
+	android:name
+		ADDED from AndroidManifest.xml:50:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:52:5
+	android:name
+		ADDED from AndroidManifest.xml:52:22
+uses-permission#android.permission.WRITE_APN_SETTINGS
+ADDED from AndroidManifest.xml:53:5
+	android:name
+		ADDED from AndroidManifest.xml:53:22
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from AndroidManifest.xml:54:5
+	android:name
+		ADDED from AndroidManifest.xml:54:22
+uses-permission#com.android.gallery3d.permission.GALLERY_PROVIDER
+ADDED from AndroidManifest.xml:55:5
+	android:name
+		ADDED from AndroidManifest.xml:55:22
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:56:5
+	android:name
+		ADDED from AndroidManifest.xml:56:22
+supports-screens
+ADDED from AndroidManifest.xml:58:5
+	android:largeScreens
+		ADDED from AndroidManifest.xml:59:42
+	android:anyDensity
+		ADDED from AndroidManifest.xml:60:13
+	android:normalScreens
+		ADDED from AndroidManifest.xml:59:13
+	android:smallScreens
+		ADDED from AndroidManifest.xml:58:23
+application
+ADDED from AndroidManifest.xml:62:5
+	android:supportsRtl
+		ADDED from AndroidManifest.xml:68:13
+	android:label
+		ADDED from AndroidManifest.xml:62:61
+	android:icon
+		ADDED from AndroidManifest.xml:62:18
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:65:13
+	android:largeHeap
+		ADDED from AndroidManifest.xml:66:13
+	android:restoreAnyVersion
+		ADDED from AndroidManifest.xml:67:13
+	android:name
+		ADDED from AndroidManifest.xml:63:13
+	android:logo
+		ADDED from AndroidManifest.xml:64:13
+uses-library#com.google.android.media.effects
+ADDED from AndroidManifest.xml:69:9
+	android:required
+		ADDED from AndroidManifest.xml:69:71
+	android:name
+		ADDED from AndroidManifest.xml:69:23
+activity#com.android.gallery3d.app.MovieActivity
+ADDED from AndroidManifest.xml:70:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:73:17
+	android:label
+		ADDED from AndroidManifest.xml:71:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:74:17
+	android:theme
+		ADDED from AndroidManifest.xml:72:17
+	android:name
+		ADDED from AndroidManifest.xml:70:19
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:75:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:76:17
+	android:name
+		ADDED from AndroidManifest.xml:76:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:77:17
+	android:name
+		ADDED from AndroidManifest.xml:77:27
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:78:17
+	android:name
+		ADDED from AndroidManifest.xml:78:27
+data
+ADDED from AndroidManifest.xml:79:17
+	android:scheme
+		ADDED from AndroidManifest.xml:79:23
+activity#com.android.gallery3d.app.TyGalleryActivity
+ADDED from AndroidManifest.xml:122:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:125:13
+	android:label
+		ADDED from AndroidManifest.xml:123:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:126:13
+	android:theme
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:122:19
+intent-filter#android.intent.action.MAIN+android.intent.category.APP_GALLERY+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:127:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:128:17
+	android:name
+		ADDED from AndroidManifest.xml:128:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:130:17
+	android:name
+		ADDED from AndroidManifest.xml:130:27
+category#android.intent.category.APP_GALLERY
+ADDED from AndroidManifest.xml:131:17
+	android:name
+		ADDED from AndroidManifest.xml:131:27
+activity#com.android.gallery3d.app.GalleryActivity
+ADDED from AndroidManifest.xml:135:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:137:13
+	android:label
+		ADDED from AndroidManifest.xml:136:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:139:13
+	android:theme
+		ADDED from AndroidManifest.xml:138:13
+	android:name
+		ADDED from AndroidManifest.xml:135:19
+intent-filter#android.intent.action.GET_CONTENT+android.intent.category.OPENABLE
+ADDED from AndroidManifest.xml:140:13
+action#android.intent.action.GET_CONTENT
+ADDED from AndroidManifest.xml:141:17
+	android:name
+		ADDED from AndroidManifest.xml:141:25
+category#android.intent.category.OPENABLE
+ADDED from AndroidManifest.xml:142:17
+	android:name
+		ADDED from AndroidManifest.xml:142:27
+intent-filter#android.intent.action.GET_CONTENT+android.intent.category.DEFAULT+android.intent.category.OPENABLE
+ADDED from AndroidManifest.xml:145:13
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:154:13
+action#android.intent.action.PICK
+ADDED from AndroidManifest.xml:155:17
+	android:name
+		ADDED from AndroidManifest.xml:155:25
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:166:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT+com.android.camera.action.REVIEW
+ADDED from AndroidManifest.xml:172:13
+action#com.android.camera.action.REVIEW
+ADDED from AndroidManifest.xml:174:17
+	android:name
+		ADDED from AndroidManifest.xml:174:25
+intent-filter#android.intent.category.BROWSABLE+android.intent.category.DEFAULT+com.android.camera.action.REVIEW
+ADDED from AndroidManifest.xml:192:13
+activity#com.android.gallery3d.app.Gallery
+ADDED from AndroidManifest.xml:211:9
+	android:theme
+		ADDED from AndroidManifest.xml:212:19
+	android:name
+		ADDED from AndroidManifest.xml:211:19
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:213:13
+activity-alias#com.cooliris.media.Gallery
+ADDED from AndroidManifest.xml:221:9
+	android:label
+		ADDED from AndroidManifest.xml:224:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:223:17
+	android:theme
+		ADDED from AndroidManifest.xml:225:17
+	android:targetActivity
+		ADDED from AndroidManifest.xml:222:17
+	android:name
+		ADDED from AndroidManifest.xml:221:25
+intent-filter#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:226:13
+activity#com.android.camera.CameraActivity
+ADDED from AndroidManifest.xml:234:9
+	android:label
+		ADDED from AndroidManifest.xml:236:13
+	android:icon
+		ADDED from AndroidManifest.xml:235:13
+	android:theme
+		ADDED from AndroidManifest.xml:237:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:238:13
+	android:name
+		ADDED from AndroidManifest.xml:234:19
+activity-alias#com.android.camera.CameraLauncher
+ADDED from AndroidManifest.xml:240:9
+	android:label
+		ADDED from AndroidManifest.xml:241:13
+	android:theme
+		ADDED from AndroidManifest.xml:242:13
+	android:targetActivity
+		ADDED from AndroidManifest.xml:243:13
+	android:name
+		ADDED from AndroidManifest.xml:240:25
+activity#com.android.gallery3d.ingest.IngestActivity
+ADDED from AndroidManifest.xml:252:9
+	android:label
+		ADDED from AndroidManifest.xml:255:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:254:13
+	android:theme
+		ADDED from AndroidManifest.xml:256:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:253:13
+	android:name
+		ADDED from AndroidManifest.xml:253:37
+	android:launchMode
+		ADDED from AndroidManifest.xml:252:19
+intent-filter#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from AndroidManifest.xml:257:13
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from AndroidManifest.xml:258:17
+	android:name
+		ADDED from AndroidManifest.xml:258:25
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from AndroidManifest.xml:260:13
+	android:resource
+		ADDED from AndroidManifest.xml:261:17
+	android:name
+		ADDED from AndroidManifest.xml:260:24
+service#com.android.gallery3d.ingest.IngestService
+ADDED from AndroidManifest.xml:263:9
+	android:name
+		ADDED from AndroidManifest.xml:263:18
+activity#com.android.gallery3d.app.Wallpaper
+ADDED from AndroidManifest.xml:265:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:266:17
+	android:theme
+		ADDED from AndroidManifest.xml:267:17
+	android:name
+		ADDED from AndroidManifest.xml:265:19
+intent-filter#android.intent.action.ATTACH_DATA+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:268:13
+	android:label
+		ADDED from AndroidManifest.xml:268:28
+action#android.intent.action.ATTACH_DATA
+ADDED from AndroidManifest.xml:269:17
+	android:name
+		ADDED from AndroidManifest.xml:269:25
+intent-filter#android.intent.action.SET_WALLPAPER+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:273:13
+	android:label
+		ADDED from AndroidManifest.xml:273:28
+action#android.intent.action.SET_WALLPAPER
+ADDED from AndroidManifest.xml:274:17
+	android:name
+		ADDED from AndroidManifest.xml:274:25
+meta-data#android.wallpaper.preview
+ADDED from AndroidManifest.xml:277:13
+	android:resource
+		ADDED from AndroidManifest.xml:278:21
+	android:name
+		ADDED from AndroidManifest.xml:277:24
+activity#com.android.gallery3d.app.TrimVideo
+ADDED from AndroidManifest.xml:285:2
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:288:3
+	android:label
+		ADDED from AndroidManifest.xml:286:15
+	android:theme
+		ADDED from AndroidManifest.xml:287:15
+	android:name
+		ADDED from AndroidManifest.xml:285:12
+intent-filter#android.intent.category.DEFAULT+com.android.camera.action.TRIM
+ADDED from AndroidManifest.xml:291:13
+	android:label
+		ADDED from AndroidManifest.xml:291:28
+action#com.android.camera.action.TRIM
+ADDED from AndroidManifest.xml:292:17
+	android:name
+		ADDED from AndroidManifest.xml:292:25
+permission#com.android.gallery3d.filtershow.permission.READ
+ADDED from AndroidManifest.xml:300:9
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:301:21
+	android:name
+		ADDED from AndroidManifest.xml:300:21
+permission#com.android.gallery3d.filtershow.permission.WRITE
+ADDED from AndroidManifest.xml:303:9
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:304:21
+	android:name
+		ADDED from AndroidManifest.xml:303:21
+provider#com.android.gallery3d.filtershow.provider.SharedImageProvider
+ADDED from AndroidManifest.xml:306:9
+	android:grantUriPermissions
+		ADDED from AndroidManifest.xml:309:13
+	android:authorities
+		ADDED from AndroidManifest.xml:308:13
+	android:readPermission
+		ADDED from AndroidManifest.xml:310:13
+	android:name
+		ADDED from AndroidManifest.xml:307:13
+	android:writePermission
+		ADDED from AndroidManifest.xml:311:13
+service#com.android.gallery3d.filtershow.pipeline.ProcessingService
+ADDED from AndroidManifest.xml:313:9
+	android:exported
+		ADDED from AndroidManifest.xml:315:17
+	android:name
+		ADDED from AndroidManifest.xml:314:17
+activity#com.android.gallery3d.filtershow.FilterShowActivity
+ADDED from AndroidManifest.xml:317:9
+	android:label
+		ADDED from AndroidManifest.xml:319:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:321:13
+	android:theme
+		ADDED from AndroidManifest.xml:320:13
+	android:name
+		ADDED from AndroidManifest.xml:318:13
+intent-filter#android.intent.action.EDIT+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:322:13
+action#android.intent.action.EDIT
+ADDED from AndroidManifest.xml:323:17
+	android:name
+		ADDED from AndroidManifest.xml:323:25
+intent-filter#action_nextgen_edit+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:327:13
+action#action_nextgen_edit
+ADDED from AndroidManifest.xml:328:17
+	android:name
+		ADDED from AndroidManifest.xml:328:25
+activity#com.android.gallery3d.filtershow.crop.CropActivity
+ADDED from AndroidManifest.xml:334:9
+	android:label
+		ADDED from AndroidManifest.xml:336:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:338:13
+	android:theme
+		ADDED from AndroidManifest.xml:337:13
+	android:name
+		ADDED from AndroidManifest.xml:335:13
+intent-filter#android.intent.category.ALTERNATIVE+android.intent.category.DEFAULT+android.intent.category.SELECTED_ALTERNATIVE+com.android.camera.action.CROP
+ADDED from AndroidManifest.xml:339:12
+	android:label
+		ADDED from AndroidManifest.xml:339:27
+action#com.android.camera.action.CROP
+ADDED from AndroidManifest.xml:340:17
+	android:name
+		ADDED from AndroidManifest.xml:340:25
+category#android.intent.category.ALTERNATIVE
+ADDED from AndroidManifest.xml:345:17
+	android:name
+		ADDED from AndroidManifest.xml:345:27
+category#android.intent.category.SELECTED_ALTERNATIVE
+ADDED from AndroidManifest.xml:346:17
+	android:name
+		ADDED from AndroidManifest.xml:346:27
+activity#com.android.gallery3d.settings.GallerySettings
+ADDED from AndroidManifest.xml:350:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:351:17
+	android:theme
+		ADDED from AndroidManifest.xml:352:17
+	android:name
+		ADDED from AndroidManifest.xml:350:19
+activity#com.android.gallery3d.util.ViewGifImage
+ADDED from AndroidManifest.xml:354:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:356:17
+	android:theme
+		ADDED from AndroidManifest.xml:355:17
+	android:name
+		ADDED from AndroidManifest.xml:354:19
+intent-filter#android.intent.category.DEFAULT+com.android.gallery3d.VIEW_GIF
+ADDED from AndroidManifest.xml:357:13
+action#com.android.gallery3d.VIEW_GIF
+ADDED from AndroidManifest.xml:358:17
+	android:name
+		ADDED from AndroidManifest.xml:358:25
+provider#com.android.gallery3d.provider.GalleryProvider
+ADDED from AndroidManifest.xml:364:9
+	android:grantUriPermissions
+		ADDED from AndroidManifest.xml:366:17
+	android:syncable
+		ADDED from AndroidManifest.xml:365:17
+	android:exported
+		ADDED from AndroidManifest.xml:367:17
+	android:authorities
+		ADDED from AndroidManifest.xml:369:17
+	android:permission
+		ADDED from AndroidManifest.xml:368:17
+	android:name
+		ADDED from AndroidManifest.xml:364:19
+provider#com.android.photos.data.PhotoProvider
+ADDED from AndroidManifest.xml:370:9
+	android:syncable
+		ADDED from AndroidManifest.xml:373:17
+	android:exported
+		ADDED from AndroidManifest.xml:374:17
+	android:authorities
+		ADDED from AndroidManifest.xml:372:17
+	android:name
+		ADDED from AndroidManifest.xml:371:17
+activity#com.android.gallery3d.gadget.WidgetClickHandler
+ADDED from AndroidManifest.xml:375:9
+	android:theme
+		ADDED from AndroidManifest.xml:376:19
+	android:name
+		ADDED from AndroidManifest.xml:375:19
+activity#com.android.gallery3d.app.DialogPicker
+ADDED from AndroidManifest.xml:377:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:378:17
+	android:theme
+		ADDED from AndroidManifest.xml:379:17
+	android:name
+		ADDED from AndroidManifest.xml:377:19
+activity#com.android.gallery3d.app.AlbumPicker
+ADDED from AndroidManifest.xml:380:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:381:17
+	android:theme
+		ADDED from AndroidManifest.xml:382:17
+	android:name
+		ADDED from AndroidManifest.xml:380:19
+activity#com.android.gallery3d.gadget.WidgetTypeChooser
+ADDED from AndroidManifest.xml:383:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:384:17
+	android:theme
+		ADDED from AndroidManifest.xml:385:17
+	android:name
+		ADDED from AndroidManifest.xml:383:19
+receiver#com.android.gallery3d.app.PackagesMonitor
+ADDED from AndroidManifest.xml:398:9
+	android:name
+		ADDED from AndroidManifest.xml:398:19
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_CHANGED+android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:399:13
+action#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:400:17
+	android:name
+		ADDED from AndroidManifest.xml:400:25
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:401:17
+	android:name
+		ADDED from AndroidManifest.xml:401:25
+action#android.intent.action.PACKAGE_CHANGED
+ADDED from AndroidManifest.xml:402:17
+	android:name
+		ADDED from AndroidManifest.xml:402:25
+service#com.android.gallery3d.app.PackagesMonitor$AsyncService
+ADDED from AndroidManifest.xml:406:9
+	android:name
+		ADDED from AndroidManifest.xml:406:18
+service#com.android.gallery3d.gadget.WidgetService
+ADDED from AndroidManifest.xml:407:9
+	android:permission
+		ADDED from AndroidManifest.xml:408:17
+	android:name
+		ADDED from AndroidManifest.xml:407:18
+activity#com.android.gallery3d.gadget.WidgetConfigure
+ADDED from AndroidManifest.xml:409:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:410:17
+	android:theme
+		ADDED from AndroidManifest.xml:411:17
+	android:name
+		ADDED from AndroidManifest.xml:409:19
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:412:13
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:413:17
+	android:name
+		ADDED from AndroidManifest.xml:413:25
+service#com.android.gallery3d.app.BatchService
+ADDED from AndroidManifest.xml:416:9
+	android:name
+		ADDED from AndroidManifest.xml:416:18
+receiver#com.android.camera.DisableCameraReceiver
+ADDED from AndroidManifest.xml:418:9
+	android:name
+		ADDED from AndroidManifest.xml:418:19
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:419:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:420:17
+	android:name
+		ADDED from AndroidManifest.xml:420:25
+service#com.android.camera.MediaSaveService
+ADDED from AndroidManifest.xml:424:9
+	android:name
+		ADDED from AndroidManifest.xml:424:18
+activity#org.codeaurora.gallery3d.video.SettingsActivity
+ADDED from AndroidManifest.xml:426:9
+	android:label
+		ADDED from AndroidManifest.xml:428:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:427:17
+	android:theme
+		ADDED from AndroidManifest.xml:429:17
+	android:name
+		ADDED from AndroidManifest.xml:426:19
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+org.codeaurora.settings.streaming
+ADDED from AndroidManifest.xml:430:13
+action#org.codeaurora.settings.streaming
+ADDED from AndroidManifest.xml:431:17
+	android:name
+		ADDED from AndroidManifest.xml:431:25
+receiver#org.codeaurora.gallery3d.video.DmReceiver
+ADDED from AndroidManifest.xml:436:9
+	android:name
+		ADDED from AndroidManifest.xml:436:19
+intent-filter#android.intent.action.BOOT_COMPLETED+streaming.action.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:437:13
+action#streaming.action.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:439:17
+	android:name
+		ADDED from AndroidManifest.xml:439:25
+activity#org.codeaurora.gallery3d.video.BookmarkActivity
+ADDED from AndroidManifest.xml:443:9
+	android:label
+		ADDED from AndroidManifest.xml:446:17
+	android:icon
+		ADDED from AndroidManifest.xml:445:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:444:17
+	android:theme
+		ADDED from AndroidManifest.xml:447:17
+	android:name
+		ADDED from AndroidManifest.xml:443:19
+intent-filter#android.intent.category.DEFAULT+org.codeaurora.bookmark.VIEW
+ADDED from AndroidManifest.xml:448:13
+action#org.codeaurora.bookmark.VIEW
+ADDED from AndroidManifest.xml:449:17
+	android:name
+		ADDED from AndroidManifest.xml:449:25
+activity#org.codeaurora.gallery3d.video.VideoSettingsActivity
+ADDED from AndroidManifest.xml:453:9
+	android:label
+		ADDED from AndroidManifest.xml:454:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:456:17
+	android:theme
+		ADDED from AndroidManifest.xml:455:17
+	android:name
+		ADDED from AndroidManifest.xml:453:19
+activity#org.codeaurora.gallery3d.video.StreamingSettingsEnablerActivity
+ADDED from AndroidManifest.xml:458:9
+	android:theme
+		ADDED from AndroidManifest.xml:459:19
+	android:name
+		ADDED from AndroidManifest.xml:458:19
+service#com.android.gallery3d.gadget.TYWidgetService
+ADDED from AndroidManifest.xml:477:9
+	android:permission
+		ADDED from AndroidManifest.xml:478:17
+	android:name
+		ADDED from AndroidManifest.xml:477:18
+activity#com.android.gallery3d.gadget.TYWidgetConfigure
+ADDED from AndroidManifest.xml:480:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:481:17
+	android:theme
+		ADDED from AndroidManifest.xml:482:17
+	android:name
+		ADDED from AndroidManifest.xml:480:19

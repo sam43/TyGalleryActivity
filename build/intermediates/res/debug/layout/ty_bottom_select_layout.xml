@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU: yuxin add for New Design Gallery -->
+<com.android.gallery3d.app.TyBottomSelectIndicator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ty_bottom_select"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ty_bottom_select"
+    android:layout_alignParentBottom="true"
+    android:background="@color/ty_bottom_bg_color"
+    android:visibility="gone" 
+    android:orientation="vertical" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#dddddd"/>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/ty_selection_all_btn"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:text="@string/select_all" 
+	        android:textSize="@dimen/ty_bottom_font_size"
+	        />
+
+	    <View
+	        android:layout_width="1px"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginBottom="8dp"
+	        android:background="@drawable/btn_line"/>
+	        
+	    <Button
+	        android:id="@+id/ty_delete_btn"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:textColor="@drawable/ty_delete_color_sel"
+	        android:text="@string/delete"
+	        android:textSize="@dimen/ty_bottom_font_size"
+	        android:visibility="gone" 
+	        />
+
+	    <Button
+	        android:id="@+id/ty_share_btn"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:text="@string/share"
+	        android:textSize="@dimen/ty_bottom_font_size"
+	        android:visibility="gone" 
+	       />
+
+	    <Button
+	        android:id="@+id/ty_add_btn"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:text="@string/ty_add_to_album"
+	        android:textSize="@dimen/ty_bottom_font_size"
+	        android:visibility="gone" 
+	       />
+
+	   <Button
+	        android:id="@+id/ty_hide_btn"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:text="@string/ty_hide"
+	        android:textSize="@dimen/ty_bottom_font_size"
+	        android:visibility="gone" 
+	        />
+
+	   <Button
+	        android:id="@+id/ty_show_btn"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:text="@string/ty_showhidden"
+	        android:textSize="@dimen/ty_bottom_font_size"
+	        android:visibility="gone" 
+	        />
+   </LinearLayout>
+</com.android.gallery3d.app.TyBottomSelectIndicator>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_bottom_select_layout.xml -->

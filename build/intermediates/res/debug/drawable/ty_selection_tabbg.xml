@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU: yuxin add for tygallery -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"    android:drawable="@drawable/ty_tab_bg_pressed" />
+    <item android:drawable="@drawable/ty_tab_bg" />
+</selector>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/drawable/ty_selection_tabbg.xml -->

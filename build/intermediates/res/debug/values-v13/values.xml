@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values-v13/styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.DialogWindowTitle" parent="@android:style/TextAppearance.Holo.DialogWindowTitle"/>
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Holo.Medium"/>
+</resources>

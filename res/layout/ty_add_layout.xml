@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<com.android.gallery3d.app.TyAddIndicator
+    android:id="@+id/ty_add_ind"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+    <ImageButton
+        android:id="@+id/ty_add_act"
+        android:layout_width="@dimen/ty_bottom_float"
+        android:layout_height="@dimen/ty_bottom_float"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ty_selection_add"
+        android:contentDescription="@string/create_new_album"/>
+</com.android.gallery3d.app.TyAddIndicator>
+</merge>

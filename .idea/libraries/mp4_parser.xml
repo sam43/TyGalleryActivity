@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mp4_parser">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mp4_parser.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TY zhencc add for New Design Gallery -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.android.gallery3d.app.TyActionSelectIndicator
+		android:id="@+id/ty_select_ind"
+	    android:layout_width="match_parent"
+		android:layout_height="@dimen/ty_actionbar_height"
+	    android:gravity="left|center_vertical"
+	    android:visibility="gone"
+	    android:background="@color/ty_title_accent_color"
+	    android:orientation="horizontal" >
+	    <!--TIANYU hanpengzhe 20151204 modify for drawable from light to dark begin -->
+	    <!--<Button
+	        android:id="@+id/ty_action_sel_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="left|center_vertical"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:textSize="@dimen/ty_title_font_size"
+	        android:textColor="@color/ty_title_font_color"
+	        android:drawableLeft="@drawable/ty_selection_close_light"
+	        android:background="@drawable/ty_back_title_background"/>-->
+	    <Button
+	        android:id="@+id/ty_action_sel_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="left|center_vertical"
+	        android:singleLine="true"
+	        android:textAllCaps="false"
+	        android:textSize="@dimen/ty_title_font_size"
+	        android:textColor="@color/ty_title_font_color"
+	        android:drawableLeft="@drawable/ty_selection_close"
+	        />
+	    <!--TIANYU hanpengzhe 20151204 modify for drawable from light to dark end -->
+	</com.android.gallery3d.app.TyActionSelectIndicator>
+</merge>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_select_layout.xml -->

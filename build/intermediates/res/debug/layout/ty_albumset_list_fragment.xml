@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU: yuxin add for New Design Gallery -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gallery_root">
+        
+    <com.android.gallery3d.ui.GLRootView
+        android:id="@+id/gl_root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        
+    <include layout="@layout/gl_list_root_group"/>
+    
+    <include layout="@layout/ty_empty_view_layout"/>
+    
+    <RelativeLayout
+        android:id="@+id/ty_bottombar_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ty_bottom_height"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/ty_bottom_select_layout"/>
+        <include layout="@layout/ty_cam_layout"/>
+        <include layout="@layout/ty_add_layout"/>
+    </RelativeLayout>
+    
+</RelativeLayout>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_albumset_list_fragment.xml -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU yuxin add for New Design Gallery -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="3dp" />
+        <solid android:color="@color/ty_accent_color" />
+        <stroke android:width="0dp"
+            android:color="@color/ty_transparent"/>
+     </shape>
+</inset>
+<!--
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:insetLeft="@dimen/ty_btn_inset_hor"
+       android:insetTop="@dimen/ty_btn_inset_ver"
+       android:insetRight="@dimen/ty_btn_inset_hor"
+       android:insetBottom="@dimen/ty_btn_inset_ver">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/ty_btn_corner" />
+        <solid android:color="@color/ty_accent_color" />
+        <padding android:left="@dimen/ty_btn_padding_hor"
+                 android:top="@dimen/ty_btn_padding_ver"
+                 android:right="@dimen/ty_btn_padding_hor"
+                 android:bottom="@dimen/ty_btn_padding_ver" />
+    </shape>
+</inset>
+-->
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/drawable/ty_btn_fillet_shape.xml -->

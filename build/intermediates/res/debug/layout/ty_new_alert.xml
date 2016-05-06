@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tyview="http://schemas.android.com/apk/res/com.android.gallery3d"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+	android:orientation="vertical">
+ 	<EditText 
+		android:id="@+id/new_edit"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@null"
+		android:gravity="center_vertical|left"
+		android:singleLine="true"
+		android:hint="@string/ty_album_name"
+		android:maxLength="20"/>
+</LinearLayout>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/layout/ty_new_alert.xml -->

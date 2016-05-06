@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android/workspace/TyGalleryActivity/res/values-1920x1080/ty_dimens.xml -->
+    <eat-comment/>
+    <dimen name="ty_appwidget_height">220dp</dimen>
+    <dimen name="ty_appwidget_width">294dp</dimen>
+    <dimen name="ty_stack_photo_height">160dp</dimen>
+    <dimen name="ty_stack_photo_width">270dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TY zhencc add for New Design Gallery -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/ty_album_operation_menu"
+        android:visible="false">
+        <item android:id="@+id/ty_action_delete"
+            android:title="@string/delete"
+            android:showAsAction="never" />
+
+        <item android:id="@+id/ty_action_share"
+            android:title="@string/share"
+            android:showAsAction="never" />
+
+        <item android:id="@+id/ty_action_add_to_album"
+            android:title="@string/ty_menu_add_to_album"
+            android:showAsAction="never"/>
+    </group>
+</menu>

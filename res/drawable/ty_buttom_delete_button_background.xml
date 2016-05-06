@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TY zhencc add for New Design Gallery -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ty_buttom_delete_pressed" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/ty_buttom_delete_normal" android:state_enabled="true"></item>
+    <item android:drawable="@drawable/ty_buttom_normal" ></item>
+
+</selector>

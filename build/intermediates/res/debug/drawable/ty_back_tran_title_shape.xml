@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TIANYU yuxin add for New Design Gallery -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/ty_title_tran_accent_color"/>
+        <stroke android:width="0dp"
+            android:color="@color/ty_transparent"/>
+        <padding android:left="@dimen/ty_btn_padding_hor"
+                 android:right="@dimen/ty_btn_padding_hor"/>
+    </shape>
+</inset>
+<!-- From: file:/D:/android/workspace/TyGalleryActivity/res/drawable/ty_back_tran_title_shape.xml -->

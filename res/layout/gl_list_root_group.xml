@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Create by wangqin for gallery listview -->
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:dslv="http://schemas.android.com/apk/res/com.android.gallery3d"
+		android:id="@+id/listpanel"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/album_background"
+		android:orientation="vertical"
+		android:visibility="gone"
+		android:focusable ="true">
+      <!-- TY zhencc modify for New Design Gallery begin -->
+		<!-- <ListView 
+			android:id="@+id/account_list"
+			android:layout_width="match_parent" 
+			android:layout_height="match_parent">
+		</ListView> -->
+		<com.android.gallery3d.app.TyDragSortListView
+            android:id="@+id/account_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            dslv:drag_enabled="false"
+            dslv:float_alpha="0.6"
+            dslv:use_default_controller="false" />
+      <!-- TY zhencc end for New Design Gallery begin -->
+	</RelativeLayout>
