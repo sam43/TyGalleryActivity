@@ -297,8 +297,8 @@ public class LocalAlbumSet extends MediaSet
                     Comparator<MediaItem> comp = DataManager.sDateTakenComparator;
                     return new LocalMergeAlbum(mApplication, //TY zhencc add paramater "Context" for New Design Gallery
                     		path, comp, new MediaSet[] {
-                            getLocalAlbum(manager, MEDIA_TYPE_IMAGE, PATH_IMAGE, id, name),
-                            getLocalAlbum(manager, MEDIA_TYPE_VIDEO, PATH_VIDEO, id, name)}, id);
+                            getLocalAlbum(manager, MEDIA_TYPE_IMAGE, PATH_IMAGE, id, name)/*,
+                            getLocalAlbum(manager, MEDIA_TYPE_VIDEO, PATH_VIDEO, id, name)*/}, id);
             }
             throw new IllegalArgumentException(String.valueOf(type));
         }

@@ -35,7 +35,7 @@ import java.util.List;
  */
 public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
     private PictureDAO dao;
-    public static final int PAGE_SIZE = 4;
+    public static final int PAGE_SIZE = 30;
     public static  int STARTINDEX = 0;
     public  boolean isEnd = false;
     public ArrayList<String> cloudPictureIdSet = new ArrayList<String>();
@@ -71,7 +71,7 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
                 if(list.size() < PAGE_SIZE){
                             isEnd = true;
                 }
-                STARTINDEX += PAGE_SIZE + 1;
+                STARTINDEX += PAGE_SIZE;
                 //dowload picture to local camera directory
                 new DownloadPictureAsyncTask().execute(list);
             }
@@ -106,7 +106,15 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
                     //not exist
                     int  lastStr = p.getUrl().lastIndexOf("/");
                     String fileName =  p.getUrl().substring(lastStr + 1);
-                    String fPath = Environment.getExternalStorageDirectory() + "/DCIM/Camera/" +  fileName;
+                    File fDir = new File(Environment.getExternalStorageDirectory() + "/DCIM/Camera");
+                    Log.i("koala","fdir path = " + fDir.getPath());
+                    if(!fDir.exists()){
+                        Log.i("koala","camera dir is not exsit");
+                        if(!fDir.mkdir()){
+                            Log.i("koala","make dir failed");
+                        }
+                    }
+                    String fPath = fDir.getPath() + "/" + fileName;
                     try {
                         URL url = new URL(p.getUrl());
                         InputStream is = url.openStream();
