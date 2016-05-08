@@ -111,6 +111,7 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
                     if(!fDir.exists()){
                         Log.i("koala","camera dir is not exsit");
                         if(!fDir.mkdir()){
+
                             Log.i("koala","make dir failed");
                         }
                     }
