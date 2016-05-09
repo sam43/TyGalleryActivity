@@ -78,10 +78,11 @@ public final class TyGalleryActivity extends TyAbstractGalleryActivity implement
             TyAlbumTimeGroupFragment.STATEMGRTAG,
             TyAlbumTimeGroupFragment.class,
             null);
+        /*taoxj remove
         mTabFragmentIndicator.addTabFragment(R.string.tab_albums,
             TyAlbumSetListFragment.STATEMGRTAG,
             TyAlbumSetListFragment.class,
-            null);
+            null); */
         mTabFragmentIndicator.setViewPager(mViewPager);
         mTabFragmentIndicator.commit();
 
