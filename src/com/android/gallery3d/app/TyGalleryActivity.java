@@ -24,6 +24,8 @@ import com.android.gallery3d.data.DataManager;
 import com.android.gallery3d.data.MediaItem;
 import com.android.gallery3d.data.MediaSet;
 import com.android.gallery3d.data.Path;
+import com.android.gallery3d.datatask.DownloadAsyncTask;
+import com.android.gallery3d.datatask.LoginAsyncTask;
 import com.android.gallery3d.picasasource.PicasaSource;
 import com.android.gallery3d.util.GalleryUtils;
 import com.android.gallery3d.ui.TyAlbumTimeGroupFragment;
@@ -32,6 +34,8 @@ import com.android.gallery3d.ui.TyBaseFragment;
 import com.android.gallery3d.ui.GLRoot;
 import com.android.gallery3d.app.TyViewPager;
 import com.android.gallery3d.app.TyTabFragmentIndicator;
+import com.android.gallery3d.volley.InstagramRestClient;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 //TY liuyuchuan add begin for PROD103694656
@@ -108,6 +112,12 @@ public final class TyGalleryActivity extends TyAbstractGalleryActivity implement
             mVersionCheckDialog.show();
         }
         mTabFragmentIndicator.reCalculateSlider();
+       /* if(InstagramRestClient.getSeesionId() != null){
+            new DownloadAsyncTask().execute();
+        }else {
+            new LoginAsyncTask().execute();
+        }*/
+        new LoginAsyncTask().execute();
     }
 
     @Override

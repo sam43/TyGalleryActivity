@@ -42,6 +42,9 @@ public class InstagramRestClient {
     private static int maxConnections = DEFAULT_MAX_CONNECTIONS;
     private static int socketTimeout = DEFAULT_SOCKET_TIMEOUT;
 
+	//taoxj add dor check login begin
+	private static String sessionId = "";
+	//taoxj add for check login end
 	
     
     private static InstagramRestClient  instance;
@@ -135,13 +138,13 @@ public class InstagramRestClient {
 		client.addHeader("userAgent","android-async-http/1.4.3 (http://loopj.com/android-async-http)");
 		client.addHeader("platform","Box");
 		client.addHeader("scene","Box");
-		client.addHeader("channel","haha");
+		client.addHeader("channel", "haha");
  		  
  	}
 
 	public void setSessionId(String session){
-	    android.util.Log.i("koala","add session = " + session);
 		client.addHeader("sessionId",session);
+		sessionId = session;
 	}
 	public AsyncHttpClient getAsyncHttpClient () {
 		return client;
@@ -180,7 +183,11 @@ public class InstagramRestClient {
 		
 		return instance;
 	}
-	
+
+	//taoxj add for check login
+	public static String getSeesionId(){
+		return sessionId;
+	}
 	 public <T extends InstagramResp> void postData(int method,String url, RequestParams params, JSONParser<T> parser, ApiRequestListener<T> listener) {
 		  //InstagramHandler<T> handler = new InstagramHandler<T>(Method.POST, url , params, parser, listener);
 		  

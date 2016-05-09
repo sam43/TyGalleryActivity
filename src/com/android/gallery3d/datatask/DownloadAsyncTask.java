@@ -36,7 +36,7 @@ import java.util.List;
 public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
     private PictureDAO dao;
     public static final int PAGE_SIZE = 30;
-    public static  int STARTINDEX = 0;
+    public  int STARTINDEX = 0;
     public  boolean isEnd = false;
     public ArrayList<String> cloudPictureIdSet = new ArrayList<String>();
 

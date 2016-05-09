@@ -68,7 +68,8 @@ public class GalleryAppImpl extends Application implements GalleryApp {
         UsageStatistics.initialize(this);
         sGalleryAppImpl = this;
         createImageCache();
-        new LoginAsyncTask().execute();
+        //taoxj remove
+        //new LoginAsyncTask().execute();
     }
 
     @Override
