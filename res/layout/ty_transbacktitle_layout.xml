@@ -20,8 +20,8 @@
              <ImageView
 	        android:id="@+id/ty_action_user_photo"
 	        android:layout_centerVertical="true"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
+	        android:layout_width="@dimen/photopage_user_photo"
+	        android:layout_height="@dimen/photopage_user_photo"
 	        android:layout_marginRight="20dp"
                 android:layout_alignParentRight="true"
 	        android:src="@drawable/default_user_photo"

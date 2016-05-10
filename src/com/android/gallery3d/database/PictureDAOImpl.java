@@ -275,6 +275,10 @@ public class PictureDAOImpl implements PictureDAO {
         Cursor cursor = databaseHelper.getReadableDatabase().query(Pictures.TABLE,null,"path = ?",new String[]{path},null,null,null);
         if(cursor.moveToNext()){
             pic.setTakePictureTime(Long.parseLong(cursor.getString(cursor.getColumnIndex(Pictures.TAKEPICTURETIME))));
+            String userPhotourl = cursor.getString(cursor.getColumnIndex(Pictures.USERPHOTOURL));
+            String url = cursor.getString(cursor.getColumnIndex(Pictures.URL));
+            pic.setUserPhotoUrl(userPhotourl == null ? "":userPhotourl);
+            pic.setUrl(url != null ? url : "");
         }
         if(cursor != null){
             cursor.close();

@@ -31,6 +31,7 @@ import com.android.gallery3d.app.TyViewPager;
 import com.android.gallery3d.app.TyTabFragmentIndicator;
 import com.android.gallery3d.app.TybackTitleIndicator;
 import com.android.gallery3d.app.TyTransbackTitleIndicator;
+import com.android.gallery3d.cache.ImageCacheManager;
 import com.android.gallery3d.ui.TyBaseFragment;
 import com.android.gallery3d.common.Utils;
 import java.util.ArrayList;
@@ -42,6 +43,8 @@ import android.view.animation.AnimationUtils;
 //TY wb034 20150209 add begin for tygallery
 import android.widget.FrameLayout.LayoutParams;
 import com.android.gallery3d.util.GalleryUtils;
+import com.android.volley.toolbox.ImageLoader;
+
 import android.content.res.Configuration;
 //TY wb034 20150209 add end for tygallery
 public class GalleryActionBar implements OnClickListener{
@@ -65,6 +68,7 @@ public class GalleryActionBar implements OnClickListener{
     private ImageView mTyBackCamera;    
     private TyTransbackTitleIndicator mTyTransBackIndicator;
     private ImageButton mTyTransBackClose;
+    private ImageView mTyTransUserPhoto;
     private TyActionSelectIndicator mTySelectIndicator;
     private Button mTySelClose;
     private TyViewPager mViewPager;
@@ -94,6 +98,7 @@ public class GalleryActionBar implements OnClickListener{
             mTyTransBackIndicator = (TyTransbackTitleIndicator)mTyActionbarContainer.findViewById(R.id.ty_transback_ind);
             if (mTyTransBackIndicator != null){
                 mTyTransBackClose = (ImageButton)mTyTransBackIndicator.findViewById(R.id.ty_action_title_trans_close);
+                mTyTransUserPhoto = (ImageView)mTyTransBackIndicator.findViewById(R.id.ty_action_user_photo);
                 mTyTransBackClose.setOnClickListener(this);
             }
             mTySelectIndicator = (TyActionSelectIndicator)mTyActionbarContainer.findViewById(R.id.ty_select_ind);
@@ -469,4 +474,10 @@ public class GalleryActionBar implements OnClickListener{
            mOnClickListener.onActionBarClick(v);
        }
    }
+    //taoxj add for user photo begin
+    public void setUserPhoto(String userPhoto){
+        ImageCacheManager.getInstance().displayImage(userPhoto,mTyTransUserPhoto,R.drawable.default_user_photo,30,30);
+       // ImageCacheManager.getInstance().displayImage("http://img0w.pconline.com.cn/pconline/1401/15/4172339_touxiang/23.jpg",mTyTransUserPhoto,R.drawable.default_user_photo,0,0);
+    }
+    //taoxj add for user photo end
 }

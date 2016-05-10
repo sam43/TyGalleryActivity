@@ -140,6 +140,9 @@
     <dimen name="album_title_font_size">16sp</dimen>
     <dimen name="album_count_font_size">14sp</dimen>
     <!--taoxj modify from 7 to 12 -->
+    <!--taoxj add for user photo begin -->
+    <dimen name="photopage_user_photo">30dp</dimen>
+    <!--taoxj add for user photo end -->
     <dimen name="album_title_font_bottom_margin">17dp</dimen>
     <dimen name="album_title_font_top_margin">12dp</dimen>
 

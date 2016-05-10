@@ -53,6 +53,9 @@ import android.widget.ImageView;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.android.gallery3d.database.PictureDAO;
+import com.android.gallery3d.database.PictureDAOImpl;
 import com.android.gallery3d.ui.MenuExecutor.ProgressListener;
 import com.android.gallery3d.ui.TyAddToAlbumCompleteListener;
 import com.android.gallery3d.ui.TyCollectToAlbumCompleteListener;
@@ -414,6 +417,7 @@ public abstract class PhotoPage extends ActivityState implements
                                 mPhotoView.switchToImage(1);
                             } else {
                                 updateBars();
+                                Log.i("koala","MSG_ON_CAMERA_CENTER");
                                 updateCurrentPhoto(mModel.getMediaItem(0));
                             }
                         }
@@ -429,6 +433,7 @@ public abstract class PhotoPage extends ActivityState implements
                     case MSG_REFRESH_IMAGE: {
                         final MediaItem photo = mCurrentPhoto;
                         mCurrentPhoto = null;
+                        Log.i("koala","MSG_REFRESH_IMAGE");
                         updateCurrentPhoto(photo);
                         break;
                     }
@@ -611,6 +616,7 @@ public abstract class PhotoPage extends ActivityState implements
                         if (item != null) {
                             MediaItem photo = mModel.getMediaItem(0);
                             if (photo != null) updateCurrentPhoto(photo);
+                            Log.i("koala","mSkipUpdateCurrentPhoto");
                         }
                         updateBars();
                     }
@@ -623,6 +629,7 @@ public abstract class PhotoPage extends ActivityState implements
                     if (!mModel.isEmpty()) {
                         MediaItem photo = mModel.getMediaItem(0);
                         if (photo != null) updateCurrentPhoto(photo);
+                        Log.i("koala","onLoadingFinished");
                     } else if (mIsActive) {
                         // We only want to finish the PhotoPage if there is no
                         // deletion that the user can undo.
@@ -643,6 +650,7 @@ public abstract class PhotoPage extends ActivityState implements
                     mActivity.getDataManager().getMediaObject(itemPath);
             mModel = new SinglePhotoDataAdapter(mActivity, mPhotoView, mediaItem);
             mPhotoView.setModel(mModel);
+            Log.i("koala","Get default media set by the URI");
             updateCurrentPhoto(mediaItem);
         }
 
@@ -874,6 +882,11 @@ public abstract class PhotoPage extends ActivityState implements
     }
 
     private void updateCurrentPhoto(MediaItem photo) {
+        //taoxj add for user photo begin
+        PictureDAO dao = new PictureDAOImpl(mActivity.getAndroidContext());
+        String userPhotoUri = dao.queryByPath(((LocalImage)photo).getFilePath()).getUserPhotoUrl();
+         mActionBar.setUserPhoto(userPhotoUri);
+        //taoxj add for user photo end
         if (mCurrentPhoto == photo) return;
         //TY wb034 20150204 add begin for tygallery
         mPreCurrentPhoto = mCurrentPhoto;
@@ -1215,6 +1228,7 @@ public abstract class PhotoPage extends ActivityState implements
     private void hideBars() {
         if (!mShowBars) return;
         mShowBars = false;
+        Log.i("koala","photo page hideBars enableNoneMode true");
         mActionBar.enableNoneMode(true);
         mActivity.getGLRoot().setLightsOutMode(true);
         mHandler.removeMessages(MSG_HIDE_BARS);
@@ -1433,6 +1447,7 @@ public abstract class PhotoPage extends ActivityState implements
                 return true;
             }
             case R.id.action_slideshow: {
+                Log.i("koala","photopage action_slideshow");
                 Bundle data = new Bundle();
                 data.putString(SlideshowPage.KEY_SET_PATH, mMediaSet.getPath().toString());
                 data.putString(SlideshowPage.KEY_ITEM_PATH, path.toString());
