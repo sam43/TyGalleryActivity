@@ -182,7 +182,7 @@ final class Config {
         }
 
         public void setMarin(int marinTop, int marinBottom){
-            android.util.Log.i("koala", slotViewSpec.marinBottom + "," + slotViewSpec.marinBottom + "," 
+            android.util.Log.i("koala", "config setMargin = " + slotViewSpec.marinTop + "," + slotViewSpec.marinBottom + ","
             + marinTop + "," + marinBottom);
             if (slotViewSpec.marinTop != marinTop
                 || slotViewSpec.marinBottom != marinBottom){
