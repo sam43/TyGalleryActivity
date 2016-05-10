@@ -71,7 +71,7 @@ import android.graphics.BitmapFactory;
 public class TyAlbumTimePage extends ActivityState implements SelectionManager.SelectionListener
         ,MediaSet.SyncListener, GalleryActionBar.OnActionBarListener, TyGalleryBottomBar.OnBottomBarListener{
     @SuppressWarnings("unused")
-    private static final String TAG = "Gallery2/TyAlbumTimePage";
+    private static final String TAG = "TyAlbumTimePage";
 
     public static final String KEY_MEDIA_PATH = "media-path";
     public static final String KEY_PARENT_MEDIA_PATH = "parent-media-path";
@@ -199,9 +199,8 @@ public class TyAlbumTimePage extends ActivityState implements SelectionManager.S
             int slotViewTop = 0;
             int slotViewBottom = bottom - top;
             int slotViewRight = right - left;
-
-            mConfig.setMarin(mActionBar.getHeight(), 
-                mTyGalleryBottomBar.getAreaHeight(TyGalleryBottomBar.TyHeightKind.TySelect));
+            mConfig.setMarin(mActionBar.getHeight(),
+                    mTyGalleryBottomBar.getAreaHeight(TyGalleryBottomBar.TyHeightKind.TySelect));
 
             if (mShowDetails) {
                 mDetailsHelper.layout(left, slotViewTop, right, bottom);
@@ -459,7 +458,6 @@ public class TyAlbumTimePage extends ActivityState implements SelectionManager.S
 		//wangqin add for gallery feature begin        
         initializeViews();
         initializeData(data);
-        android.util.Log.i("data",data.toString());
         mGetContent = data.getBoolean(GalleryActivity.KEY_GET_CONTENT, false);
         mDirectStartSelectedMode = data.getBoolean(KEY_DIRECT_START_SELECTED_MODE, false);       
         mDetailsSource = new MyDetailsSource();
@@ -493,8 +491,10 @@ public class TyAlbumTimePage extends ActivityState implements SelectionManager.S
     @Override
     protected void onResume() {
         super.onResume();
+        //taoxj add begin
+        mActionBar.enableBackMode(this,false);
+        //taoxj add end
         mIsActive = true;
-
         mResumeEffect = mActivity.getTransitionStore().get(KEY_RESUME_ANIMATION);
         if (mResumeEffect != null) {
             mTyAlbumTimeSlotRenderer.setSlotFilter(mResumeEffect);
@@ -521,6 +521,7 @@ public class TyAlbumTimePage extends ActivityState implements SelectionManager.S
         mTyAlbumTimeSlotRenderer.resume();
         mTyAlbumTimeSlotRenderer.setPressedIndex(-1);
         mTyAlbumTimeSlotRenderer.setReserveData(false);
+
     }
 
     @Override
@@ -598,12 +599,10 @@ public class TyAlbumTimePage extends ActivityState implements SelectionManager.S
 
     private void initializeData(Bundle data) {
         String mediaPath = data.getString(KEY_MEDIA_PATH);
-        Log.i("koala","mediaPath = " + mediaPath);
-        mBaseMediaSet = mActivity.getDataManager().getMediaSet(mediaPath);
+         mBaseMediaSet = mActivity.getDataManager().getMediaSet(mediaPath);
         
         String basePath = mBaseMediaSet.getPath().toString();
         String setLoadPath = FilterUtils.switchClusterPath(basePath, FilterUtils.CLUSTER_BY_TY_TIME);
-        android.util.Log.i("data","basePath = " + basePath + "," + "setLoadPath = " + setLoadPath);
 
         Path setPath = null;
         setPath = Path.fromString(setLoadPath);
@@ -655,7 +654,7 @@ public class TyAlbumTimePage extends ActivityState implements SelectionManager.S
         } else {
            // inflator.inflate(R.menu.ty_album, menu);
            // mTyAlbumMenu = menu;
-           mTyAlbumMenu = null;
+            mTyAlbumMenu = null;
           //  mTyAlbumMenu.setGroupVisible(R.id.ty_album_operation_menu, !mShowedEmpty);
             mItemSelected = menu.findItem(R.id.ty_action_delete);
             mItemDelete = mItemSelected;
