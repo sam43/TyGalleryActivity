@@ -928,7 +928,7 @@ public abstract class PhotoPage extends ActivityState implements
         }
         setActionbarTitle();
         tySetBottomMenuTag(menu);
-        tyUpdateBottomMenuOperation(menu,supportedOperations);
+        tyUpdateBottomMenuOperation(menu, supportedOperations);
         //TY zhencc add for makeup begin
         tyUpdateMakeupButton();
         //TY zhencc add for makeup end
@@ -978,17 +978,25 @@ public abstract class PhotoPage extends ActivityState implements
         } else if (mCurrentPhoto.getMediaType() == MediaObject.MEDIA_TYPE_VIDEO){
             tySetBottomMenuItemTag(menu, R.id.action_trim, R.id.ty_bottom_menu_edit);
         }
-        tySetBottomMenuItemTag(menu,R.id.ty_action_share, R.id.ty_bottom_menu_share);
-        tySetBottomMenuItemTag(menu,R.id.ty_action_menu_collect, R.id.ty_bottom_menu_collect);
+        tySetBottomMenuItemTag(menu, R.id.ty_action_share, R.id.ty_bottom_menu_share);
+        tySetBottomMenuItemTag(menu, R.id.ty_action_menu_collect, R.id.ty_bottom_menu_collect);
     }
     
     private void tySetBottomMenuItemTag(Menu menu, int itemId, int bottomMenuId){
         if(mTyPhotoBottomMenuLayout != null){
             //taoxj modify to Button
-            ImageButton bottomMenuItem = (ImageButton) mTyPhotoBottomMenuLayout.findViewById(bottomMenuId);
-            if (bottomMenuItem != null) {
-                MenuItem item = menu.findItem(itemId);
-                bottomMenuItem.setTag(item);
+            if(bottomMenuId == R.id.ty_bottom_menu_delete){
+                ImageView bottomMenuItem = (ImageView) mTyPhotoBottomMenuLayout.findViewById(bottomMenuId);
+                if (bottomMenuItem != null) {
+                    MenuItem item = menu.findItem(itemId);
+                    bottomMenuItem.setTag(item);
+                }
+            }else{
+                ImageButton bottomMenuItem = (ImageButton) mTyPhotoBottomMenuLayout.findViewById(bottomMenuId);
+                if (bottomMenuItem != null) {
+                    MenuItem item = menu.findItem(itemId);
+                    bottomMenuItem.setTag(item);
+                }
             }
         }
     }
@@ -1077,13 +1085,21 @@ public abstract class PhotoPage extends ActivityState implements
     private void tySetBottomMenuImage(int bottomMenuId, boolean support/*int enableImage, int disableImage*/){
         if(mTyPhotoBottomMenuLayout != null){
             //taoxj modify to Button
-            ImageButton bottomMenuItem = (ImageButton) mTyPhotoBottomMenuLayout.findViewById(bottomMenuId);
-            if (bottomMenuItem != null) {
-                if (bottomMenuId == R.id.ty_bottom_menu_collect && support == false){
-                   mTyPhotoCollectMenu.setAlpha(255);
+            if(bottomMenuId == R.id.ty_bottom_menu_delete){
+                ImageView bottomMenuItem = (ImageView) mTyPhotoBottomMenuLayout.findViewById(bottomMenuId);
+                if (bottomMenuItem != null) {
+                    bottomMenuItem.setEnabled(support);
                 }
-                bottomMenuItem.setEnabled(support);
+            }else{
+                ImageButton bottomMenuItem = (ImageButton) mTyPhotoBottomMenuLayout.findViewById(bottomMenuId);
+                if (bottomMenuItem != null) {
+                    if (bottomMenuId == R.id.ty_bottom_menu_collect && support == false){
+                        mTyPhotoCollectMenu.setAlpha(255);
+                    }
+                    bottomMenuItem.setEnabled(support);
+                }
             }
+
         }
     }
     
@@ -2011,8 +2027,8 @@ public abstract class PhotoPage extends ActivityState implements
 
         if(mTyPhotoBottomMenuLayout == null){
         	mTyPhotoBottomMenuLayout = (RelativeLayout)((Activity) mActivity.getAndroidContext()).getLayoutInflater().from(mActivity.getAndroidContext()).inflate(R.layout.ty_photo_bottom_menu_layout_health, null);//taoxj modify
-        	
-        	ImageButton tyPhotoDeleteMenu = (ImageButton) mTyPhotoBottomMenuLayout.findViewById(R.id.ty_bottom_menu_delete);
+
+            ImageView tyPhotoDeleteMenu = (ImageView) mTyPhotoBottomMenuLayout.findViewById(R.id.ty_bottom_menu_delete);
         	ImageButton tyPhotoEditMenu = (ImageButton) mTyPhotoBottomMenuLayout.findViewById(R.id.ty_bottom_menu_edit);
         	//TY zhencc add for makeup begin
         	ImageButton tyPhotoMakeup = (ImageButton) mTyPhotoBottomMenuLayout.findViewById(R.id.ty_bottom_menu_makeup);

@@ -25,7 +25,8 @@ public class LoginAsyncTask extends AsyncTask<Void,Void,Void> {
     @Override
     protected Void doInBackground(Void... params) {
         //Login
-        RequestParams rp = new RequestParams("{'telephone':'18610277013','password':'123456a'}");
+      //  RequestParams rp = new RequestParams("{'telephone':'18610277013','password':'123456a'}");
+        RequestParams rp = new RequestParams("{'telephone':'" +  GalleryApi.tel +"','password':'"+ GalleryApi.password+"'}");
 
         InstagramRestClient.getInstance().postData(Request.Method.POST, GalleryApi.login, rp, new AccountParser(), new ApiRequestListener<AccountResp>() {
 

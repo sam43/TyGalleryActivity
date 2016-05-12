@@ -39,7 +39,7 @@ public class DeleteAsyncTask extends AsyncTask<Void,Void,Void> {
 
     public void delete(final String pictureId){
         //get image id
-         RequestParams rp = new RequestParams("{'telephone':'18610277013','pictureId':'" +  pictureId + "'}");
+         RequestParams rp = new RequestParams("{'telephone':'"+GalleryApi.tel+"','pictureId':'" +  pictureId + "'}");
         InstagramRestClient.getInstance().postData(Request.Method.POST, GalleryApi.delete, rp, new DeleteParser(), new ApiRequestListener<DeleteResp>(){
 
             @Override

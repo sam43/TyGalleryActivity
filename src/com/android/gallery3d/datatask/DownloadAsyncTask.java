@@ -56,7 +56,7 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
     }
 
     public void getPicList(){
-        RequestParams rp = new RequestParams("{'telephone':'18610277013','startIndex':'" + STARTINDEX + "','pageSize':'" + PAGE_SIZE + "'}");
+        RequestParams rp = new RequestParams("{'telephone':'"+GalleryApi.tel+"','startIndex':'" + STARTINDEX + "','pageSize':'" + PAGE_SIZE + "'}");
         InstagramRestClient.getInstance().postData(Request.Method.POST, GalleryApi.dowload, rp, new PictureListParser(), new ApiRequestListener<PictureListResp>() {
 
             @Override

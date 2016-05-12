@@ -52,7 +52,7 @@ public class UploadAsyncTask extends AsyncTask<Void,Void,Void> {
                 Bitmap photo = null;
                 try {
                     photo = MediaStore.Images.Media.getBitmap(GalleryAppImpl.getContext().getContentResolver(), pic.getUri());
-                    jsonBody += "'telephone':'18610277013','picture':";
+                    jsonBody += "'telephone':'"+GalleryApi.tel+"','picture':";
                     jsonBody += "'" + BitmapUtils.bitmapToBase64(photo)+  "'";
                     jsonBody += ",'pictureFormat':'" + pic.getType() + "','takePictureTime':'" + sdf.format(new Date(pic.getTakePictureTime())) + "'}";
                     RequestParams rp = new RequestParams(jsonBody);

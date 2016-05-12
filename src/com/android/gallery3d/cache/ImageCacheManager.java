@@ -87,7 +87,7 @@ public class ImageCacheManager {
 		}
 
 		if (android.os.Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED)) {
-			cacheDir = new File(android.os.Environment.getExternalStorageDirectory(), "multigold/ImageCache");
+			cacheDir = new File(android.os.Environment.getExternalStorageDirectory(), "gallery3d/ImageCache");
 		} else {
 			cacheDir = context.getCacheDir();
 		}

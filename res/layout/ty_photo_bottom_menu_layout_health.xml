@@ -14,9 +14,9 @@
             android:layout_alignParentRight="true"
 	    android:paddingRight="20dp">
 	   
-	        <ImageButton
+	        <ImageView
 	            android:id="@+id/ty_bottom_menu_delete"
-	            android:background="@drawable/ty_ic_gallery_delete_disable"
+	            android:src="@drawable/ty_ic_gallery_delete_disable"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:contentDescription="@string/delete_photo"/>
