@@ -27,7 +27,6 @@ public class PictureDAOImpl implements PictureDAO {
      protected static final String DB_NAME = "picture.db";
     private static PictureDatabaseHelper  databaseHelper = null;
     private Context mContext;
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     private final String mWhereClause ;
     private final String mOrderClause;
     public PictureDAOImpl(Context mContext) {
@@ -49,7 +48,7 @@ public class PictureDAOImpl implements PictureDAO {
 
 
     @Override
-    public void addPicture(PictureDetail picture) {
+    public synchronized  void addPicture(PictureDetail picture) {
         //local picture insert
         if(picture.getPictureId() == null){
             String path =  picture.getPath();
@@ -58,7 +57,7 @@ public class PictureDAOImpl implements PictureDAO {
                 //already exists,update
                 ContentValues values = new ContentValues();
                 values.put(Pictures.URI, picture.getUri().toString());
-                 databaseHelper.getWritableDatabase().update(Pictures.TABLE, values, "path = ?", new String[]{path});
+                databaseHelper.getWritableDatabase().update(Pictures.TABLE, values, "path = ?", new String[]{path});
                 Log.i("koala", "upload cloud data");
                 return;
             }
@@ -165,9 +164,13 @@ public class PictureDAOImpl implements PictureDAO {
             if(cursor.getString(cursor.getColumnIndex(Pictures.URL)) != null){
                 pictureDetail.setUrl(cursor.getString(cursor.getColumnIndex(Pictures.URL)));
             }
+            pictureDetail.setIsDeleted(cursor.getInt(cursor.getColumnIndex(Pictures.ISDELETED)));
             pictureDetail.setType(cursor.getString(cursor.getColumnIndex(Pictures.TYPE)));
             pictureDetail.setId(cursor.getInt(cursor.getColumnIndex(Pictures._ID)));
             pictureDetail.setPictureId(pid);
+            if(cursor != null){
+                cursor.close();
+            }
             return pictureDetail;
         }
         return null;

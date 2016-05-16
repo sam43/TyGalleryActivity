@@ -52,7 +52,7 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
 
     @Override
     protected void onPostExecute(Void aVoid) {
-        new DeleteAsyncTask().execute();
+        //new DeleteAsyncTask().execute();
     }
 
     public void getPicList(){
@@ -62,6 +62,7 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
             @Override
             public void onPreExecute() {
                 // TODO Auto-generated method stub
+                Log.i("koala","prepare to get pic list");
             }
 
             @Override
@@ -144,7 +145,7 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
             }
             if(isEnd){
                 List<String> localPictureIds = dao.queryAllPictureIds();
-                Log.i("koala","localPictureIds size " + localPictureIds.size());
+                Log.i("koala", "localPictureIds size " + localPictureIds.size());
                 if( localPictureIds.removeAll(cloudPictureIdSet)){
                     Log.i("koala","localPictureIds to be deleted size " + localPictureIds.size());
                     for(int i = 0;i<localPictureIds.size();i++){
@@ -167,6 +168,15 @@ public class DownloadAsyncTask extends AsyncTask<Void,Void,Void> {
             }
             return null;
         }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            new DeleteAsyncTask().execute();
+            new UploadAsyncTask().execute();
+        }
     }
+
+
 }
 

@@ -54,7 +54,9 @@ public class UploadAsyncTask extends AsyncTask<Void,Void,Void> {
                     photo = MediaStore.Images.Media.getBitmap(GalleryAppImpl.getContext().getContentResolver(), pic.getUri());
                     jsonBody += "'telephone':'"+GalleryApi.tel+"','picture':";
                     jsonBody += "'" + BitmapUtils.bitmapToBase64(photo)+  "'";
-                    jsonBody += ",'pictureFormat':'" + pic.getType() + "','takePictureTime':'" + sdf.format(new Date(pic.getTakePictureTime())) + "'}";
+                    jsonBody += ",'pictureFormat':'" + pic.getType() + "','takePictureTime':'" + sdf.format(new Date(pic.getTakePictureTime()))
+                            + "','familyId':" + "'78b6252e20e34a4093f88e74af2b1a33"
+                            + "'}";
                     RequestParams rp = new RequestParams(jsonBody);
                     if(i == picList.size() -1){
                         upload(rp,id,true);
@@ -86,22 +88,23 @@ public class UploadAsyncTask extends AsyncTask<Void,Void,Void> {
             @Override
             public void onComplete(int statusCode, UploadResp value) {
                 if (value.isSuccess()) {
-                    //upload success ,update local database
-                    PictureDetail pic = new PictureDetail();
-                    pic.setId(pid);
-                    pic.setPictureId(value.getPictureId());
-                    dao.updateLocalPicture(pic);
-                    if(isLast){
-                        isRunning = false;
-                     }
-                }
-
+                                //upload success ,update local database
+            PictureDetail pic = new PictureDetail();
+            pic.setId(pid);
+            pic.setPictureId(value.getPictureId());
+            dao.updateLocalPicture(pic);
+            if(isLast){
+                isRunning = false;
             }
+        }
+    }
 
             @Override
             public void onException(InstagramPlusException e) {
                 // TODO Auto-gener
-                isRunning = false;
+                if(isLast){
+                    isRunning = false;
+                }
              }
         });
     }

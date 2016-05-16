@@ -113,13 +113,14 @@ public final class TyGalleryActivity extends TyAbstractGalleryActivity implement
             mVersionCheckDialog.show();
         }
         mTabFragmentIndicator.reCalculateSlider();
-       /* if(InstagramRestClient.getSeesionId() != null){
+        //taoxj add begin
+        if(InstagramRestClient.getSeesionId() != null){
             new DownloadAsyncTask().execute();
         }else {
             new LoginAsyncTask().execute();
-        }*/
-        new LoginAsyncTask().execute();
-    }
+        }
+        //taoxj add end
+     }
 
     @Override
     protected void onPause() {
@@ -155,6 +156,7 @@ public final class TyGalleryActivity extends TyAbstractGalleryActivity implement
         if (mTabFragmentIndicator != null){
             TyBaseFragment fragment = mTabFragmentIndicator.getCurrentTabFragment();
             if (fragment != null){
+                Log.i("koala","tygallery activity back pressed");
                 fragment.onBackPressed();
             }
         }

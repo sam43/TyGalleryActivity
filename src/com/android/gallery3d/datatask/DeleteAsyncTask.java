@@ -27,6 +27,12 @@ public class DeleteAsyncTask extends AsyncTask<Void,Void,Void> {
     public DeleteAsyncTask(){
         this.dao = new PictureDAOImpl(GalleryAppImpl.getContext());
     }
+
+    @Override
+    protected void onPreExecute() {
+        Log.i("koala","prepare to execute delete task");
+    }
+
     @Override
     protected Void doInBackground(Void... params) {
          List<PictureDetail> list = dao.queryDeletedItems();
@@ -53,16 +59,12 @@ public class DeleteAsyncTask extends AsyncTask<Void,Void,Void> {
                 if(isDeleted){
                     //delete database item
                     dao.deletePicture(pictureId);
-                }else{
-                    //modify database
-                    dao.modifyDeleteStatus(pictureId);
                 }
             }
 
             @Override
             public void onException(InstagramPlusException e) {
                 // TODO Auto-gener
-
             }});
     }
 }

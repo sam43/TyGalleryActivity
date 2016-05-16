@@ -729,7 +729,7 @@ public class TySlotView extends GLView {
                          y += row * (mSlotHeight + mSlotGap) + mSpec.titleHeight + mSpec.separatorLineHeight;
                         }
                 }
-                rect.set(x, y + mMarinTop + 15, mWidth - mSlotGapEdge, y + mSpec.separatorLineHeight + mMarinTop + 15);
+                rect.set(x, y + mMarinTop, mWidth - mSlotGapEdge, y + mSpec.separatorLineHeight + mMarinTop);
             }
           }
             return rect;
@@ -883,10 +883,10 @@ public class TySlotView extends GLView {
                 int majorUnitSize, int minorUnitSize,  /* The slot width and height */
                 int[] padding) {
             int unitCount = (minorLength + mSlotGap) / (minorUnitSize + mSlotGap);
+            Log.i("koala","unitCount =" + unitCount);
             if (unitCount == 0) unitCount = 1;
             mUnitCount = unitCount;
-
-            if (mSpec.areaHSize > mUnitCount){
+           if (mSpec.areaHSize > mUnitCount){
                 mSpec.areaHSize = mUnitCount;
             }
             mSpecialCount = mUnitCount*mSpec.areaVSize - mSpec.areaVSize*mSpec.areaHSize + 1;
@@ -920,8 +920,10 @@ public class TySlotView extends GLView {
                         row = num / mUnitCount + ((num % mUnitCount) > 0 ? 1 : 0);
                         mContentLength += row * (majorUnitSize + mSlotGap);
                     }
+                    mContentLength += mSpec.separatorLineHeight; //taoxj add for separator line
                 }
                 mContentLength -= mSlotGap;
+                mContentLength -= mSpec.separatorLineHeight; //taoxj add for separator line
                 mContentLength += mMarinTop + mMarinBottom;
             }else{
                 int count = ((mSlotCount + mUnitCount - 1) / mUnitCount);
@@ -936,14 +938,14 @@ public class TySlotView extends GLView {
         private void initLayoutParameters() {
             // Initialize mSlotWidth and mSlotHeight from mSpec
             if (mSpec.slotWidth != -1) {
+                Log.i("koala","use special slot width");
                 mMarinTop = mSpec.marinTop;
                 mMarinBottom = mSpec.marinBottom;
                 int rows = (mWidth > mHeight) ? mSpec.rowsLand : mSpec.rowsPort;
                 mSlotWidth = mSpec.slotWidth;
                 mSlotHeight = mSpec.slotHeight;
+                mSlotGapEdge = mSpec.slotGapEdge;
                 mSlotGap = (mWidth - 2 * mSlotGapEdge - rows * mSlotWidth) / (rows - 1);
-            	mSlotGapEdge = mSpec.slotGapEdge;
-            	 
             } else {
                 mMarinTop = mSpec.marinTop;
                 mMarinBottom = mSpec.marinBottom;

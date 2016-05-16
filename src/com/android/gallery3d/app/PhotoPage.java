@@ -885,7 +885,9 @@ public abstract class PhotoPage extends ActivityState implements
         //taoxj add for user photo begin
         PictureDAO dao = new PictureDAOImpl(mActivity.getAndroidContext());
         String userPhotoUri = dao.queryByPath(((LocalImage)photo).getFilePath()).getUserPhotoUrl();
-         mActionBar.setUserPhoto(userPhotoUri);
+        if(userPhotoUri != null && !"".equals(userPhotoUri)){
+            mActionBar.setUserPhoto(userPhotoUri);
+        }
         //taoxj add for user photo end
         if (mCurrentPhoto == photo) return;
         //TY wb034 20150204 add begin for tygallery

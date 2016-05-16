@@ -10,6 +10,12 @@ public class GalleryApi {
     public static final String dowload= "http://114.251.81.148:8080/album/base/familyAlbumPictureList";
     public static final String upload= "http://114.251.81.148:8080/album/base/uploadPicture";
     public static final String delete= "http://114.251.81.148:8080/album/base/deletePicture";
-    public static final String tel = "18610277013";
-    public static final String password = "123456a";
+   public static final String tel = "13800000000";
+  public static final String password = "aaa111";
+ //   public static final String tel = "13800000001";
+  //  public static final String password = "aaa111";
+ //   public static final String tel = "13800000002";
+ //   public static final String password = "aaa111";
+//    public static final String tel = "13800000003";
+//    public static final String password = "aaa111";
 }

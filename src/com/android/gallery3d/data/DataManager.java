@@ -364,7 +364,9 @@ public class DataManager implements StitchingChangeListener {
             @Override
             public void onException(InstagramPlusException e) {
                 // TODO Auto-gener
-
+                //modify database
+                Log.i("koala", "delete picture error");
+                dao.modifyDeleteStatus(pictureId);
             }});
     }
     //taoxj add for cloud delete end
