@@ -227,7 +227,8 @@ public class TyAlbumTimeSlotRenderer extends TyAbstractSlotRenderer {
         //TYRD:changjj add for delete anamition begin
         @Override
         public void onContentLoadFinished(){
-            mSlotView.startTranslatingAnimation();
+            //taoxj remove
+            //mSlotView.startTranslatingAnimation();
         }
         //TYRD:changjj add for delete anamition end
     }
