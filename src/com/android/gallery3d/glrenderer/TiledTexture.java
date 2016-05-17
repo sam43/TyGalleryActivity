@@ -68,7 +68,8 @@ public class TiledTexture implements Texture {
     private final int mHeight;
     private final RectF mSrcRect = new RectF();
     private final RectF mDestRect = new RectF();
-    
+    //taoxj add
+    private boolean hasBorder = false;
     /*TIANYU: yuxin add begin for New Design Gallery*/
     public static class Resources{
         public Bitmap sUploadBitmap;
@@ -295,6 +296,14 @@ public class TiledTexture implements Texture {
         mTiles = list.toArray(new Tile[list.size()]);
     }
 
+
+    public TiledTexture(Bitmap bitmap, Resources resources, String glTag, String reString,boolean isImage) {
+       this(bitmap,resources,glTag,reString);
+        hasBorder = isImage;
+    }
+
+
+
     public boolean isReady() {
         return mUploadIndex == mTiles.length;
     }
@@ -385,6 +394,15 @@ public class TiledTexture implements Texture {
                 canvas.drawTexture(t, mSrcRect, mDestRect);
             }
         }
+        //taoxj add for border begin
+        int color = Color.parseColor("#e6e7e8");
+        if(hasBorder){
+            canvas.fillRect(0,0,mWidth,4,color);
+            canvas.fillRect(0,0,4,mHeight,color);
+            canvas.fillRect(0,mHeight - 4,mWidth,4,color);
+            canvas.fillRect(mWidth - 4,0,4,mHeight,color);
+        }
+        //taoxj add for border end
     }
 
     // Draws a sub region of this texture on to the specified rectangle.

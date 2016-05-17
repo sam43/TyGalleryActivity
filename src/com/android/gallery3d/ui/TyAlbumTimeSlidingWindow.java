@@ -162,8 +162,6 @@ public class TyAlbumTimeSlidingWindow implements TyAlbumTimeDataLoader.DataListe
                 }
             }
         };
-
-        Log.i(TAG, "TyAlbumTimeSlidingWindow new joblimiter num " + JOB_LIMIT);
         mThreadPool = new JobLimiter(activity.getThreadPool(), JOB_LIMIT);
         mTileUploader = new TiledTexture.Uploader(activity.getGLRoot());
         mTiledResources = new TiledTexture.Resources();
@@ -657,7 +655,7 @@ public class TyAlbumTimeSlidingWindow implements TyAlbumTimeDataLoader.DataListe
             if (bitmap == null) return; // error or recycled
             AlbumEntry entry = mData[mSlotIndex % mData.length];
             if (entry == null) return;
-            entry.bitmapTexture = new TiledTexture(bitmap, mTiledResources, mGalleryContext.getGLTag(R.id.ty_gl_tag), TAG);
+            entry.bitmapTexture = new TiledTexture(bitmap, mTiledResources, mGalleryContext.getGLTag(R.id.ty_gl_tag), TAG,true);
             entry.content = entry.bitmapTexture;
 
             if (isActiveSlot(mSlotIndex)) {

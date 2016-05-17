@@ -14,10 +14,12 @@ import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpProtocolParams;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.http.AndroidHttpClient;
 import android.os.Build;
+import android.util.Log;
 
 import com.android.gallery3d.api.ApiRequestListener;
 import com.android.gallery3d.api.InstagramResp;
@@ -33,6 +35,7 @@ import com.android.gallery3d.cache.ImageCacheManager;
 
 
 public class InstagramRestClient {
+	private static final String SESSION = "sessionId";
 	private static final String VERSION = "1.4.3";
 
     private static final int DEFAULT_MAX_CONNECTIONS = 10;
@@ -45,7 +48,8 @@ public class InstagramRestClient {
 	//taoxj add dor check login begin
 	private static String sessionId = "";
 	//taoxj add for check login end
-	
+
+	private SharedPreferences mPrefs;
     
     private static InstagramRestClient  instance;
 	/**
@@ -67,6 +71,8 @@ public class InstagramRestClient {
 	 * 			application context
 	 */
 	public  void init(Context context) {
+		mPrefs = GalleryAppImpl.getContext().getSharedPreferences(GalleryAppImpl.getContext().getPackageName(),
+				Context.MODE_PRIVATE);
 		    BasicHttpParams httpParams = new BasicHttpParams();
 
 	        ConnManagerParams.setTimeout(httpParams, socketTimeout);
@@ -129,12 +135,13 @@ public class InstagramRestClient {
 		scene： 场景,取值范围iOS/Android/Web/Wap/Box
 		channel：渠道(友盟统计相关)
 		jgPushId：极光推送ID(极光推送相关) */
-		
-		
-		 
+
+
+		 String sessionId = mPrefs.getString(SESSION,"");
+		Log.i("koala","setupHeader session = " + sessionId);
  		client.addHeader("version","1.0");
 		client.addHeader("deviceId","123456");
-		client.addHeader("sessionId","");
+		client.addHeader("sessionId",sessionId);
 		client.addHeader("userAgent","android-async-http/1.4.3 (http://loopj.com/android-async-http)");
 		client.addHeader("platform","Box");
 		client.addHeader("scene","Box");
@@ -143,6 +150,12 @@ public class InstagramRestClient {
  	}
 
 	public void setSessionId(String session){
+		SharedPreferences   mPrefs = mPrefs = GalleryAppImpl.getContext().getSharedPreferences(GalleryAppImpl.getContext().getPackageName(),
+				Context.MODE_PRIVATE);;
+		SharedPreferences.Editor editor = mPrefs.edit();
+		editor.putString(SESSION, session);
+		editor.commit();
+		Log.i("koala", "set session = " + session);
 		client.addHeader("sessionId",session);
 		sessionId = session;
 	}

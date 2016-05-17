@@ -114,7 +114,7 @@ public final class TyGalleryActivity extends TyAbstractGalleryActivity implement
         }
         mTabFragmentIndicator.reCalculateSlider();
         //taoxj add begin
-        if(InstagramRestClient.getSeesionId() != null){
+        if(!"".equals(InstagramRestClient.getSeesionId())){
             new DownloadAsyncTask().execute();
         }else {
             new LoginAsyncTask().execute();

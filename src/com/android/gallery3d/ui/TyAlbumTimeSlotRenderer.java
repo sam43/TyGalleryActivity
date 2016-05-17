@@ -139,7 +139,7 @@ public class TyAlbumTimeSlotRenderer extends TyAbstractSlotRenderer {
     @Override
     public int renderSlot(GLCanvas canvas, int index, int pass, int width, int height) {
         if (mSlotFilter != null && !mSlotFilter.acceptSlot(index)) return 0;
-
+        Log.i("koala","render slot");
         TyAlbumTimeSlidingWindow.AlbumEntry entry = mDataWindow.get(index);
         if (entry == null){
             return 0;
@@ -270,7 +270,7 @@ public class TyAlbumTimeSlotRenderer extends TyAbstractSlotRenderer {
      @Override
     public int renderSeparatorLine(GLCanvas canvas, int titleIndex, int pass, int width, int height){
          
-        Texture content = new ColorTexture(Color.GRAY);
+        Texture content = new ColorTexture(Color.parseColor("#e6e7e8"));
         content.draw(canvas, 0, 0, width, height);
         return 0;
     }

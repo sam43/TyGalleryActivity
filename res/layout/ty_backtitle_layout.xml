@@ -13,6 +13,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="@dimen/ty_actionbar_height"
 		android:gravity="center_vertical"
+                  android:background="@color/actionbar_textview_color"
 		android:visibility="gone"><!--taoxj modify end -->
 		<!--TIANYU hanpengzhe 20151204 modify for drawable from light to dark begin -->
 	    <!--<Button

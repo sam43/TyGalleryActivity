@@ -22,6 +22,11 @@ import android.graphics.Bitmap.Config;
 import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
 import android.graphics.BitmapRegionDecoder;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Rect;
+import android.graphics.RectF;
 import android.os.Build;
 import android.util.FloatMath;
 
@@ -184,7 +189,30 @@ public class DecodeUtils {
 
         return ensureGLCompatibleBitmap(
                 BitmapFactory.decodeByteArray(data, 0, data.length, options));
+     }
+
+    //taoxj add for image border begin
+    public static Bitmap addBorder(Bitmap bitmap){
+        Bitmap output = Bitmap.createBitmap(bitmap.getWidth() + 10, bitmap.getHeight() + 10, Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmap);
+
+       // int color = 0xe6e7e8;  //
+        int color = Color.RED;  //
+        Paint paint = new Paint();
+        Rect rect = new Rect(0, 0, bitmap.getWidth() + 10, bitmap.getHeight() + 10);
+        RectF rectF = new RectF(rect);
+
+        paint.setAntiAlias(true);
+           canvas.drawARGB(0, 0, 0, 0);
+        paint.setColor(color);
+        canvas.drawRect(rectF, paint);
+
+        //paint.setXfermode(new PorterDuffXfermode(Mode.SRC_IN));
+        Rect rectOrgin = new Rect(10,10, bitmap.getWidth()+10, bitmap.getHeight()+10);
+        canvas.drawBitmap(bitmap, rectOrgin, rectOrgin, paint);
+        return output;
     }
+    //taoxj add for image border end
 
     // TODO: This function should not be called directly from
     // DecodeUtils.requestDecode(...), since we don't have the knowledge
